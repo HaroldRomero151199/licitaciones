@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema name="mercadopublico-licitaciones" version="1.6">
+  <!-- 
+    Simple Solr Schema Suggestion for Mercado Público Licitaciones
+    Targeting Solr 8.x/9.x
+  -->
+
+  <!-- Unique Key -->
+  <uniqueKey>CodigoExterno</uniqueKey>
+
+  <!-- Field Types -->
+  <fieldType name="string" class="solr.StrField" sortMissingLast="true" />
+  <fieldType name="int" class="solr.IntPointField" docValues="true"/>
+  <fieldType name="long" class="solr.LongPointField" docValues="true"/>
+  <fieldType name="float" class="solr.FloatPointField" docValues="true"/>
+  <fieldType name="date" class="solr.DatePointField" docValues="true"/>
+  
+  <!-- Text Field for Search (Spanish support) -->
+  <fieldType name="text_es" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.SpanishLightStemFilterFactory"/>
+      <filter class="solr.ASCIIFoldingFilterFactory"/>
+    </analyzer>
+  </fieldType>
+
+  <!-- Fields Mapping -->
+  <!-- ID -->
+  <field name="CodigoExterno" type="string" indexed="true" stored="true" required="true" multiValued="false" /> 
+
+  <!-- Searchable Text Fields -->
+  <field name="Nombre" type="text_es" indexed="true" stored="true"/>
+  <field name="Descripcion" type="text_es" indexed="true" stored="true"/>
+
+  <!-- Facetable Fields (String or PointFields with docValues) -->
+  <field name="Estado" type="string" indexed="true" stored="true"/>
+  <field name="CodigoEstado" type="int" indexed="true" stored="true"/>
+  
+  <!-- Comprador Facets -->
+  <field name="RegionUnidad" type="string" indexed="true" stored="true"/>
+  <field name="ComunaUnidad" type="string" indexed="true" stored="true"/>
+  <field name="NombreOrganismo" type="string" indexed="true" stored="true"/>
+  
+  <!-- Dates for Range Queries -->
+  <field name="FechaCreacion" type="date" indexed="true" stored="true"/>
+  <field name="FechaCierre" type="date" indexed="true" stored="true"/>
+
+  <!-- Flattened Items Information -->
+  <!-- For faceting by Category, we need a multivalued field -->
+  <field name="CalculatedCategorias" type="string" indexed="true" stored="true" multiValued="true"/>
+  <field name="CalculatedItemsNames" type="text_es" indexed="true" stored="true" multiValued="true"/>
+
+  <!-- Copy Fields for General Search -->
+  <field name="_text_" type="text_es" indexed="true" stored="false" multiValued="true"/>
+  <copyField source="Nombre" dest="_text_"/>
+  <copyField source="Descripcion" dest="_text_"/>
+  <copyField source="CalculatedItemsNames" dest="_text_"/>
+
+</schema>

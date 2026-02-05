@@ -1,0 +1,19 @@
+{
+    "Cantidad": 2,
+    "FechaCreacion": "2026-02-04T01:40:40.4374325Z",
+    "Version": "v1",
+    "Listado": [
+        {
+            "CodigoExterno": "2732-49-LE25",
+            "Nombre": "Guardias de Seguridad Semana Peñaflorina 2026",
+            "CodigoEstado": 7,
+            "FechaCierre": "2026-01-01T22:20:21.897"
+        },
+        {
+            "CodigoExterno": "2732-46-LE25",
+            "Nombre": "Const. Cubierta Centro de Equinoterapia Municipal",
+            "CodigoEstado": 8,
+            "FechaCierre": "2025-12-09T15:30:00"
+        }
+    ]
+}
