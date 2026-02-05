@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+test_static/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+
+# Static files (generated images)
+static/*/
+!static/README.md
+
+# Keep test fixtures (tus imágenes)
+!tests/fixtures/*.jpg
+!tests/fixtures/*.png
+
+# Logs
+*.log
