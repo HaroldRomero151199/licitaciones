@@ -6,16 +6,15 @@ import httpx
 from pydantic import ValidationError
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 
-from app.domain.models import LicitacionResponse
+from app.domain.schemas import LicitacionListResponse, LicitacionDetailResponse
 
 logger = logging.getLogger(__name__)
 
 
 class MercadoPublicoClient:
-    BASE_URL = "https://api.mercadopublico.cl/servicios/v1/publico"
-
-    def __init__(self, ticket: str, timeout: float = 30.0):
+    def __init__(self, ticket: str, base_url: str, timeout: float = 30.0):
         self.ticket = ticket
+        self.base_url = base_url.rstrip("/")
         self.timeout = timeout
         self.client = httpx.AsyncClient(timeout=timeout)
 
@@ -30,7 +29,7 @@ class MercadoPublicoClient:
     )
     async def _get(self, endpoint: str, params: dict) -> dict:
         params["ticket"] = self.ticket
-        url = f"{self.BASE_URL}/{endpoint}"
+        url = f"{self.base_url}/{endpoint}"
         
         try:
             response = await self.client.get(url, params=params)
@@ -38,7 +37,13 @@ class MercadoPublicoClient:
             data = response.json()
             return data
         except httpx.HTTPStatusError as e:
-            logger.error(f"HTTP error occurred: {e.response.status_code} - {e.response.text}")
+            error_data = None
+            try:
+                error_data = e.response.json()
+                logger.error(f"HTTP error occurred: {e.response.status_code} - {error_data}")
+            except Exception:
+                logger.error(f"HTTP error occurred: {e.response.status_code} - {e.response.text}")
+            
             raise
         except httpx.RequestError as e:
             logger.error(f"Request error occurred: {e}")
@@ -47,7 +52,7 @@ class MercadoPublicoClient:
             logger.error(f"An unexpected error occurred: {e}")
             raise
 
-    async def get_by_date(self, date_str: str) -> LicitacionResponse:
+    async def get_by_date(self, date_str: str) -> LicitacionListResponse:
         """
         Get licitaciones by date.
         Date format: ddmmaaaa (e.g., 02022026)
@@ -56,12 +61,12 @@ class MercadoPublicoClient:
         data = await self._get("licitaciones.json", params)
         
         try:
-            return LicitacionResponse(**data)
+            return LicitacionListResponse(**data)
         except ValidationError as e:
             logger.error(f"Validation error for date {date_str}: {e}")
             raise
 
-    async def get_by_code(self, code: str) -> LicitacionResponse:
+    async def get_by_code(self, code: str) -> LicitacionDetailResponse:
         """
         Get licitacion details by code.
         """
@@ -69,7 +74,7 @@ class MercadoPublicoClient:
         data = await self._get("licitaciones.json", params)
         
         try:
-            return LicitacionResponse(**data)
+            return LicitacionDetailResponse(**data)
         except ValidationError as e:
             logger.error(f"Validation error for code {code}: {e}")
             raise

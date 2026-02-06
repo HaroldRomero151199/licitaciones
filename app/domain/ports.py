@@ -1,9 +1,9 @@
 from typing import List, Protocol
 from datetime import date
-from app.domain.models import Licitacion
+from app.domain.schemas import Licitacion, LicitacionItem
 
 class MercadoPublicoClientPort(Protocol):
-    async def get_daily_list(self, target_date: date) -> List[Licitacion]:
+    async def get_daily_list(self, target_date: date) -> List[LicitacionItem]:
         """Obtiene la lista de licitaciones de una fecha."""
         ...
 
