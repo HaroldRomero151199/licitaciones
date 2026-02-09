@@ -1,62 +1,78 @@
-# Mercado Público Ingestor
+# Mercado Público Ingestor & Search API
 
-Este proyecto es un backend robusto escrito en Python 3.11+ diseñado para consumir la API de Mercado Público Chile, procesar licitaciones y prepararlas para ser indexadas en Apache Solr.
+Este proyecto es un backend robusto escrito en Python 3.11+ diseñado para consumir la API de Mercado Público Chile, procesar licitaciones y prepararlas para ser indexadas en Apache Solr. 
 
-## Arquitectura
+Utiliza una arquitectura limpia (**Clean Architecture**) para asegurar la mantenibilidad y el desacoplamiento entre la lógica de negocio y las integraciones externas.
 
-Se ha seguido una **Clean Architecture** para asegurar la mantenibilidad y desacoplamiento del código:
+## 🚀 Tecnologías Principales
 
--   **/app/domain**: Contiene las entidades y modelos de datos (Pydantic V2).
--   **/app/infrastructure**: Implementaciones de clientes externos (API Mercado Público, Solr).
--   **/app/application**: Servicios y casos de uso del negocio.
+- **Python 3.11+**
+- **FastAPI**: Framework web para la API.
+- **Pydantic V2**: Modelamiento y validación de datos.
+- **Apache Solr**: Motor de búsqueda y persistencia de documentos.
+- **Httpx + Tenacity**: Cliente HTTP asíncrono con lógica de reintentos exponenciales.
+- **Poetry**: Gestión de dependencias y entornos virtuales.
 
-## Modelos de Datos (DTOs)
+## 🏗️ Arquitectura del Proyecto
 
-Se han implementado modelos Pydantic V2 en `domain/models.py` que:
-1.  **Mapean el JSON oficial**: Utilizan `alias` para convertir los nombres de campos en `PascalCase` (propios del JSON de Mercado Público) a `snake_case` (estándar de Python).
-2.  **Validación Estricta**: Aseguran que los tipos de datos (fechas, enteros, strings) sean correctos antes de procesarlos.
-3.  **Normalización**: Manejan la estructura anidada de `Items` y `Comprador` para facilitar el acceso a la data.
+El código está organizado siguiendo principios de Clean Architecture:
 
-> [!NOTE]
-> Aunque el directorio `backend/` contiene modelos con nombres en PascalCase, los modelos en `app/domain/models.py` son los recomendados para este proyecto por seguir las convenciones de Python sin perder la compatibilidad con el JSON original.
+-   **/app/domain**: Contiene las entidades, puertos y esquemas de validación.
+    - `schemas.py`: Modelos Pydantic para el JSON original y DTOs del sistema.
+-   **/app/application**: Casos de uso y lógica de transformación.
+    - `ingestion_service.py`: Lógica para coordinar la ingesta desde la API a Solr.
+    - `transformer_service.py`: Transformación de datos raw a formatos optimizados (DTO/IndexDoc).
+-   **/app/infrastructure**: Adaptadores para servicios externos.
+    - `mercadopublico/`: Cliente para la API oficial de Mercado Público.
+    - `solr/`: Integración con Apache Solr y definición del esquema (`managed-schema.xml`).
+-   **/app/api**: Definición de rutas y controladores FastAPI.
 
-## Requisitos Previos
+## 🛠️ Instalación y Configuración
 
--   Python 3.11 o superior.
--   [Poetry](https://python-poetry.org/) (recomendado) o Pip.
+1.  **Clonar el repositorio**:
+    ```bash
+    git clone <url-del-repositorio>
+    cd licitaciones
+    ```
 
-## Instalación y Configuración
-
-1.  **Instalar dependencias**:
+2.  **Instalar dependencias**:
     ```bash
     poetry install
     ```
-    O usando pip:
+
+3.  **Configurar Variables de Entorno**:
+    Copia el archivo de ejemplo y completa tus credenciales:
     ```bash
-    pip install httpx pydantic tenacity pysolr
+    cp .env.example .env
     ```
+    Asegúrate de configurar tu `MP_TICKET` (puedes usar el de pruebas: `F8537A18-6766-4DEF-9E59-426B4FEE2844`) y la URL de tu instancia de `SOLR_URL`.
 
-2.  **Configuración**:
-    Asegúrate de tener un ticket válido de Mercado Público. El ticket de pruebas es: `F8537A18-6766-4DEF-9E59-426B4FEE2844`.
+## 🚦 Cómo Ejecutar
 
-## Cómo Ejecutar
+### Iniciar el Servidor API
+```bash
+poetry run uvicorn main:app --reload
+```
+La API estará disponible en `http://localhost:8000`. Puedes acceder a la documentación interactiva en `/docs`.
 
 ### Verificación de Modelos
-Para verificar que los modelos parsean correctamente el JSON de ejemplo proporcionado por la documentación:
+Si deseas validar que los modelos de datos siguen procesando correctamente los JSON de ejemplo:
 ```bash
 python verify_models.py
 ```
 
-### Uso del Cliente API
-El cliente se encuentra en `infrastructure/mercadopublico/client.py`. Soporta reintentos automáticos y peticiones asíncronas.
+## 🔗 Endpoints Principales
 
-```python
-from app.infrastructure.mercadopublico.client import MercadoPublicoClient
+- `GET /test/`: Consulta licitaciones por fecha directamente a la API real.
+- `GET /test/detail`: Consulta el detalle de una licitación específica por código.
+- `GET /test/detail/dto`: Obtiene el detalle de una licitación transformado al DTO simplificado.
+- `POST /ingest/test`: Dispara un proceso de ingesta de prueba (actualmente mockeado con archivos locales).
 
-client = MercadoPublicoClient(ticket="TU_TICKET")
-# Uso asíncrono...
-```
+## 🔍 Solr (Search Engine)
+La configuración del core para Solr se encuentra en `app/infrastructure/solr/managed-schema.xml`. Esta definición está optimizada para búsquedas en español, incluyendo:
+- Configuración de filtros `SpanishLightStemmer`.
+- Facetas por región, comuna y categoría.
+- Búsqueda por palabras clave en descripciones de productos.
 
-## Solr (Search Engine)
-En `infrastructure/solr/managed-schema.xml` encontrarás la definición sugerida del core para Solr, optimizada para búsquedas en español y facetas por región y categoría.
-# licitaciones
+---
+*Desarrollado con enfoque en calidad de datos y escalabilidad.*

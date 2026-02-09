@@ -17,6 +17,7 @@ tenacity = "^8.2.3"
 fastapi = "^0.128.1"
 uvicorn = "^0.40.0"
 python-dotenv = "^1.2.1"
+pydantic-settings = "^2.12.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0.0"
