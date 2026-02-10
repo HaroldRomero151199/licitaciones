@@ -3,6 +3,8 @@ import time
 from typing import Dict, Any, List
 from datetime import datetime
 
+from starlette.concurrency import run_in_threadpool
+
 from app.domain.ports import SolrTenderRepositoryPort
 from app.infrastructure.mercadopublico.client import MercadoPublicoClient
 from app.application.transformer_service import TenderTransformer
@@ -14,7 +16,7 @@ class ActiveTendersIngestionService:
     def __init__(self, mp_client: MercadoPublicoClient, solr_repo: SolrTenderRepositoryPort):
         self.mp_client = mp_client
         self.solr_repo = solr_repo
-        self.batch_size = 200
+        self.batch_size = 100
 
     async def ingest_actives(self) -> Dict[str, Any]:
         """
@@ -63,7 +65,8 @@ class ActiveTendersIngestionService:
                     
                     # Batch upsert
                     if len(batch) >= self.batch_size:
-                        await self.solr_repo.upsert_many(batch)
+                        # Run Solr upsert in a thread pool to avoid blocking the event loop
+                        await run_in_threadpool(self.solr_repo.upsert_many, batch)
                         stats["total_indexed"] += len(batch)
                         batch = []
                         
@@ -74,7 +77,7 @@ class ActiveTendersIngestionService:
             
             # Process remaining batch
             if batch:
-                await self.solr_repo.upsert_many(batch)
+                await run_in_threadpool(self.solr_repo.upsert_many, batch)
                 stats["total_indexed"] += len(batch)
 
             stats["status"] = "ok"

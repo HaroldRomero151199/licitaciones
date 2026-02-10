@@ -35,17 +35,27 @@ El código está organizado siguiendo principios de Clean Architecture:
     cd licitaciones
     ```
 
-2.  **Instalar dependencias**:
+2.  **Instalar Poetry (si no lo tienes)**:
+    - **Windows / PowerShell**:
+      ```powershell
+      (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
+      ```
+      Luego agrega el directorio de binarios de Poetry (por ejemplo `C:\Users\Usuario\AppData\Roaming\Python\Scripts` o el que indique el instalador) a tu variable de entorno `PATH`, cierra y vuelve a abrir la terminal y verifica:
+      ```powershell
+      poetry --version
+      ```
+
+3.  **Instalar dependencias del proyecto**:
     ```bash
     poetry install
     ```
 
-3.  **Configurar Variables de Entorno**:
+4.  **Configurar Variables de Entorno**:
     Copia el archivo de ejemplo y completa tus credenciales:
     ```bash
     cp .env.example .env
     ```
-    Asegúrate de configurar tu `MP_TICKET` (puedes usar el de pruebas: `F8537A18-6766-4DEF-9E59-426B4FEE2844`) y la URL de tu instancia de `SOLR_URL`.
+    Asegúrate de configurar tu `MP_TICKET` (puedes usar el de pruebas: `F8537A18-6766-4DEF-9E59-426B4FEE2844`) y los parámetros de tu instancia de Solr (`SOLR_BASE_URL`, `SOLR_CORE`, `SOLR_USERNAME`, `SOLR_PASSWORD`).
 
 ## 🚦 Cómo Ejecutar
 

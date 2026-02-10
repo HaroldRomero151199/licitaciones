@@ -1,14 +1,13 @@
-import re
-from typing import List, Optional
+from typing import Any, Dict, Optional
 from app.domain.schemas import Licitacion, TenderSummaryDTO, TenderIndexDoc
 
 
 class TenderTransformer:
-    """Servicio para transformar objetos Licitacion a DTOs y documentos de índice."""
+    """Transforms domain models into DTOs and Solr index documents."""
     
     @staticmethod
     def _map_status(code: int) -> str:
-        """Mapea código de estado a string legible."""
+        """Maps MercadoPublico status codes into a stable string."""
         return {
             5: "open",
             6: "closed",
@@ -20,7 +19,7 @@ class TenderTransformer:
     
     @staticmethod
     def _complaints_level(count: int) -> str:
-        """Calcula nivel de reclamos basado en cantidad."""
+        """Computes complaints level from a numeric count."""
         if count >= 500:
             return "alto"
         if count >= 100:
@@ -29,8 +28,8 @@ class TenderTransformer:
     
     @staticmethod
     def _monto_display(amount: Optional[float], tender_type: str = "") -> str:
-        """Genera representación legible del monto en rangos UTM o basado en el tipo."""
-        # Mapeo estándar de tipos de licitación a rangos de UTM en Chile
+        """Builds a human-friendly amount label, mostly derived from tender type."""
+        # Standard mapping of tender types to UTM ranges in Chile
         type_ranges = {
             "L1": "Menor a 100 UTM",
             "LE": "De 100 UTM a 1.000 UTM",
@@ -45,7 +44,7 @@ class TenderTransformer:
             "LS": "Servicios personales especializados",
         }
 
-        # Si el tipo existe en nuestro mapeo oficial, devolvemos el rango estándar
+        # If the type exists in our official mapping, return the standard range label
         if tender_type in type_ranges:
             return type_ranges[tender_type]
             
@@ -56,16 +55,16 @@ class TenderTransformer:
     @classmethod
     def to_summary_dto(cls, lic: Licitacion, complaints_count: Optional[int] = None) -> TenderSummaryDTO:
         """
-        Transforma Licitacion a DTO mínimo para respuestas de API.
+        Transforms a `Licitacion` into a compact DTO for API responses.
         
         Args:
-            lic: Objeto Licitacion del dominio
-            complaints_count: Cantidad de reclamos (sobrescribe el valor de la licitación si se provee)
+            lic: Domain `Licitacion` instance
+            complaints_count: Optional override for complaints count
             
         Returns:
-            TenderSummaryDTO: DTO mínimo para list view
+            TenderSummaryDTO: DTO for list view
         """
-        # Usar el valor de la licitación si no se pasa uno explícito
+        # Use the tender value unless explicitly overridden
         count = complaints_count if complaints_count is not None else lic.cantidad_reclamos
 
         return TenderSummaryDTO(
@@ -92,19 +91,19 @@ class TenderTransformer:
     @classmethod
     def to_index_doc(cls, lic: Licitacion, complaints_count: Optional[int] = None) -> TenderIndexDoc:
         """
-        Transforma Licitacion a documento para indexar en Solr.
+        Transforms a `Licitacion` into a document ready to be indexed in Solr.
         
         Args:
-            lic: Objeto Licitacion del dominio
-            complaints_count: Cantidad de reclamos (sobrescribe el valor de la licitación si se provee)
+            lic: Domain `Licitacion` instance
+            complaints_count: Optional override for complaints count
             
         Returns:
-            TenderIndexDoc: Documento listo para indexar en Solr
+            TenderIndexDoc: Index document
         """
-        # Usar el valor de la licitación si no se pasa uno explícito
+        # Use the tender value unless explicitly overridden
         count = complaints_count if complaints_count is not None else lic.cantidad_reclamos
 
-        # Extraer categoría del primer item
+        # Extract category from the first item
         first_category = ""
         if lic.items and lic.items.listado:
             first_category = lic.items.listado[0].categoria or ""
@@ -130,4 +129,61 @@ class TenderTransformer:
             products_count=len(lic.items_flat),
 
             url=f"https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion={lic.codigo_externo}",
+        )
+
+    # --- Helpers for Solr search results ---
+
+    @staticmethod
+    def _first_or_empty(value: Any) -> str:
+        """Normalizes Solr fields that may be returned as a list or a scalar."""
+        if isinstance(value, list):
+            return value[0] if value else ""
+        return value or ""
+
+    @staticmethod
+    def _first_or_none(value: Any) -> Any:
+        """Returns the first element of a list or the value itself; allows None."""
+        if isinstance(value, list):
+            return value[0] if value else None
+        return value
+
+    @staticmethod
+    def _first_number_or_default(value: Any, default: float | int = 0) -> float | int:
+        """Normalizes numeric fields that may arrive as a single value or list."""
+        if isinstance(value, list):
+            if not value:
+                return default
+            return value[0]
+        if value is None:
+            return default
+        return value
+
+    @classmethod
+    def solr_doc_to_summary_dto(cls, doc: Dict[str, Any]) -> TenderSummaryDTO:
+        """
+        Converts a raw Solr document (dict) into a `TenderSummaryDTO`
+        ready for frontend consumption.
+        """
+        return TenderSummaryDTO(
+            id=doc.get("id", ""),
+            title=cls._first_or_empty(doc.get("title")),
+            description=cls._first_or_empty(doc.get("description")),
+            entity=cls._first_or_empty(doc.get("entity")),
+            region=cls._first_or_empty(doc.get("region")),
+            comuna=cls._first_or_empty(doc.get("comuna")),
+            type=cls._first_or_empty(doc.get("type")),
+            status=cls._first_or_empty(doc.get("status")),
+            publishDate=cls._first_or_none(doc.get("publish_date")),
+            closingDate=cls._first_or_none(doc.get("closing_date")),
+            currency=cls._first_or_empty(doc.get("currency")) or "CLP",
+            amount=cls._first_number_or_default(doc.get("amount"), 0.0),
+            montoDisplay=cls._monto_display(
+                cls._first_number_or_default(doc.get("amount"), 0.0),
+                cls._first_or_empty(doc.get("type")),
+            ),
+            complaintsLevel=cls._first_or_empty(doc.get("complaints_level")),
+            complaintsCount=cls._first_number_or_default(doc.get("complaints_count"), 0),
+            productsCount=cls._first_number_or_default(doc.get("products_count"), 0),
+            url=cls._first_or_empty(doc.get("url")),
+            score=doc.get("score", 0.0),
         )
