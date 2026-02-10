@@ -1,0 +1,2473 @@
+{
+    "Cantidad": 411,
+    "FechaCreacion": "2026-02-09T22:56:56.6263684Z",
+    "Version": "v1",
+    "Listado": [
+        {
+            "CodigoExterno": "4486-5-LE26",
+            "Nombre": "Mantención y Reparación Vehículos Municipales",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T16:00:00"
+        },
+        {
+            "CodigoExterno": "2384-9-LR26",
+            "Nombre": "CONSERV PAVS Y CIERRE PERIMETRAL SALA CUNA Y JARDIN INFANTIL CARACOL MANTA CONSERV SALA CUNA Y JARDIN INFANTIL VTF NIDITO DE ÁNGELES CONSERV PAVS Y CIERRE PERIMETRAL JARDÍN INFANTIL Y SALA CUNA INTI LLACTA ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-13T09:10:00"
+        },
+        {
+            "CodigoExterno": "898-25-LP26",
+            "Nombre": "SERVICIOS DE SOPORTE LOGISTICO Y TRASLADO PARA EL NUEVO HCV",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T18:00:00"
+        },
+        {
+            "CodigoExterno": "898-26-LE26",
+            "Nombre": "GESTIÓN DE PROYECTOS SISTEMAS DE INFORMACIÓN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:01:00"
+        },
+        {
+            "CodigoExterno": "2378-16-LP26",
+            "Nombre": "SUMINISTRO DE EMULSIÓN ASFALTICA Y ASFALTO EN FRIO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-09T15:30:00"
+        },
+        {
+            "CodigoExterno": "1275930-4-LE26",
+            "Nombre": "Suministro de servicios de traslados terrestres para actividades culturales de la Corporación Cultural Municipal de Ovalle",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:30:00"
+        },
+        {
+            "CodigoExterno": "2735-18-LP26",
+            "Nombre": "DEMOLICIÓN COSAM LO BARNECHEA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T15:30:00"
+        },
+        {
+            "CodigoExterno": "2735-10-LP26",
+            "Nombre": "PROV. E INST. PISO MADERA PULIDO Y VITRIFICADO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:30:00"
+        },
+        {
+            "CodigoExterno": "4076-9-LE26",
+            "Nombre": "ADQ. PITCH LINK ASSY HELI. BK117 BO105 PREF. AEREA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T12:00:00"
+        },
+        {
+            "CodigoExterno": "1275930-3-LE26",
+            "Nombre": "Suministro de servicios de alojamiento para actividades culturales de la Corporación Cultural Municipal de Ovalle.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:30:00"
+        },
+        {
+            "CodigoExterno": "1490160-5-LE26",
+            "Nombre": "Mantenimiento de Redes Húmedas y Extintores",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:00:00"
+        },
+        {
+            "CodigoExterno": "4247-2-LE26",
+            "Nombre": "SERVICIO DE PRODUCCION SEMANA PUNITAQUINA 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T19:55:00"
+        },
+        {
+            "CodigoExterno": "1275930-2-LE26",
+            "Nombre": "Servicios de producción integral “Campeonato Nacional de Cueca Jóvenes del Bicentenario 2026”",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:30:00"
+        },
+        {
+            "CodigoExterno": "918434-6-LE26",
+            "Nombre": "CONTRATACIÓN DEL SERVICIO DE PRODUCCIÓN DE EVENTO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T20:00:00"
+        },
+        {
+            "CodigoExterno": "2403-8-LP26",
+            "Nombre": "Reposición franja calzada y vereda sur Av. José Ar",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T15:30:00"
+        },
+        {
+            "CodigoExterno": "1057547-64-LE26",
+            "Nombre": "ADQUISICIÓN DE REPUESTOS PARA SISTEMA DE CALEFACCIÓN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T19:00:00"
+        },
+        {
+            "CodigoExterno": "1048-8-LP26",
+            "Nombre": "CONVENIO SUMINISTRO DE UTILES DE ASEO 2026-2027",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-03T13:00:00"
+        },
+        {
+            "CodigoExterno": "1079516-1-LE26",
+            "Nombre": "SERVICIO ARRIENDO REJAS CONTENCION ORDEN PUBLICO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-17T13:01:00"
+        },
+        {
+            "CodigoExterno": "1005498-1-LE26",
+            "Nombre": "CONTRATACIÓN DEL SERVICIO DE SOPORTE LOCAL SYBASE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T16:00:00"
+        },
+        {
+            "CodigoExterno": "608897-7-LE26",
+            "Nombre": "TRASLADO DE CALEFACTORES MARCA FERLUX MODELO FLORA 7 CORRESPONDIENTE AL PROGRAMA DE RECAMBIO DE ARTEFACTOS A LEÑA EN LA ZONA SATURADA DE COYHAIQUE DE LA REGIÓN DE AYSÉN AÑO 2021- LÍNEA PELLET",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-17T17:30:00"
+        },
+        {
+            "CodigoExterno": "1063538-11-LP26",
+            "Nombre": "CONVENIO SUM.REACTIVOS Y RACKS PUNTAS C FILTRO HBO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T17:00:00"
+        },
+        {
+            "CodigoExterno": "5061-2-L126",
+            "Nombre": "SCHC 7 ADQUISICIÓN E INSTALACIÓN Y PUESTA EN MARCHA DE ESTABILIZADOR DE VOLTAJE PARA CESFAM VILLA ALEGRE, SEGÚN ESPECIFICACIONES TÉCNICAS ADJUNTAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T17:00:00"
+        },
+        {
+            "CodigoExterno": "2019-3-LE26",
+            "Nombre": "Ss. ASEO COMPLEJO FRONTERIZO RÍO DON GUILLERMO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T14:00:00"
+        },
+        {
+            "CodigoExterno": "2711-9-LP26",
+            "Nombre": "SUMINISTRO DE SERVICIO DE MOVILIZACIÓN PARA EL TRASLADO DE ALUMNOS Y DOCENTES DEL DEPARTAMENTO DE EDUCACIÓN DE OVALLE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "2019-1-LE26",
+            "Nombre": "Servicio de Aseo DPP UEsperanza",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T14:30:00"
+        },
+        {
+            "CodigoExterno": "1354-2-LE26",
+            "Nombre": "Mantención y Reparación vehiculos institucionales",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T15:00:00"
+        },
+        {
+            "CodigoExterno": "1057489-38-LE26",
+            "Nombre": "SERVICIOS PARA PROCEDIMIENTOS AFERESIS PARA EL HDS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-24T15:30:00"
+        },
+        {
+            "CodigoExterno": "1048-7-LP26",
+            "Nombre": "CONVENIO SUMINISTRO ALIMENTOS E INSUMOS 2026-2027",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:30:00"
+        },
+        {
+            "CodigoExterno": "1057498-8-LR26",
+            "Nombre": "SUMINISTRO INSUMOS CIRUGIAS ENDOSCOPICAS CON EQ.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-12T15:01:00"
+        },
+        {
+            "CodigoExterno": "2384-8-LR26",
+            "Nombre": "CONSERVACIÓN ELÉC. LICEO ELEUTERIO RAMÍREZ CALAMA CÓD BIP 40063982-0 Y CONSERVACIÓN AULAS Y AMPLIACIÓN DE COMEDOR DE ALUMNOS ESCUELA EMILIO SOTOMAYOR CALAMA COD BIP 40064748-0",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-12T09:10:00"
+        },
+        {
+            "CodigoExterno": "3447-15-LP26",
+            "Nombre": "Construcción Cruces Peatonales",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-12T10:00:00"
+        },
+        {
+            "CodigoExterno": "2735-8-LE26",
+            "Nombre": "ADQ. PALAS BARRENIEVE-CAMIONETAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:45:00"
+        },
+        {
+            "CodigoExterno": "4829-6-LE26",
+            "Nombre": "READECUACIÓN ESPACIO MULTITALLER DE ESTIMULACIÓN.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T16:39:00"
+        },
+        {
+            "CodigoExterno": "1413-3-LE26",
+            "Nombre": "DIRREG LOS LAGOS REQUIERE SERVICIO DE ADMINISTRACION DE SALA CUNA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "2827-26-LE26",
+            "Nombre": "SERVICIO DE PRODUCCION DE EVENTOS COMUNAL DE BASQUETBOL 3X3 CONSTITUCION 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T16:00:00"
+        },
+        {
+            "CodigoExterno": "3251-7-LE26",
+            "Nombre": "CONTRATO SUMINISTRO TALONARIOS CLINICOS Y ADM 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:00:00"
+        },
+        {
+            "CodigoExterno": "4309-40-LE26",
+            "Nombre": "CONVENIO FUROSEMIDA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-17T13:19:00"
+        },
+        {
+            "CodigoExterno": "4006-2-LP26",
+            "Nombre": "Rehabilitación de impulsión de aguas servidas",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-03T13:30:00"
+        },
+        {
+            "CodigoExterno": "1057974-1-LP26",
+            "Nombre": "CONSTRUCCION  PLAZA  PATROMONIAL DEL HOSPITAL REGIONAL DE  ÑUBLE CODIGO BIP 30107398-0”",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T17:00:00"
+        },
+        {
+            "CodigoExterno": "1605-9-LP26",
+            "Nombre": "LP-4518 Solución Antispam y Correo Masivo del SII",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "4997-1-LE26",
+            "Nombre": "Servicios de confección e impresión de libro “Historia de la Municipalidad de San Pedro de Atacama sus primeros 45 años”",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T10:00:00"
+        },
+        {
+            "CodigoExterno": "2655-1-LE26",
+            "Nombre": "SERVICIO DE ASEO LIMPIEZA Y JARDINERÍA PTE ALTO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:00:00"
+        },
+        {
+            "CodigoExterno": "1376-3-LE26",
+            "Nombre": "F-09: SERV. DE FUMIGACIÓN Y EXTERMINACIÓN DE PLAGAS INTEGRAL GENDARMERIA REGION DE ATACAMA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T13:00:00"
+        },
+        {
+            "CodigoExterno": "587-9-LE26",
+            "Nombre": "Selico 16 Impresión de carpetas y folletos",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-26T15:10:00"
+        },
+        {
+            "CodigoExterno": "1979-22-LE26",
+            "Nombre": "26.26 “ANÁLISIS DE AGUA PARA HEMODIALISIS PARA NODO COSTERO: HOSPITAL NVA IMPERIAL.”",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "3838-14-LE26",
+            "Nombre": "ADQ. E INSTALACIÓN CONTAINER CAMARINES ESTADIO JMG",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:30:00"
+        },
+        {
+            "CodigoExterno": "3447-17-LE26",
+            "Nombre": "Servicio de Estudios de Mecánica de Suelo",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T10:00:00"
+        },
+        {
+            "CodigoExterno": "3470-2-L126",
+            "Nombre": "ADQUISICION PRODUCTOS E INSUMOS DE ASEO PARA DSM",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T18:00:00"
+        },
+        {
+            "CodigoExterno": "4309-38-LP26",
+            "Nombre": "CONVENIO DUPILUMAB",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-20T16:18:00"
+        },
+        {
+            "CodigoExterno": "2909-11-LE26",
+            "Nombre": "suministro alimentación salidas educativas",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T11:00:00"
+        },
+        {
+            "CodigoExterno": "1057461-5-LE26",
+            "Nombre": "MANTENIMIENTO PREVENTIVO YO CORRECTIVO AUTOCLAVE PROHS OPPICI LAVADORA OPPICI ABLANDADORES Y SISTEMAS DE OSMOSIS INVERSA ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:30:00"
+        },
+        {
+            "CodigoExterno": "2215-8-LP26",
+            "Nombre": "REPARACIONES REMODELACIONES Y OBRAS CIVILES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "3135-15-LE26",
+            "Nombre": "SERVICIO ASEO E HIGIENIZACION RECINTOS MUNICIPALES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T10:00:00"
+        },
+        {
+            "CodigoExterno": "876-4-LE26",
+            "Nombre": "SERVICIOS DE TELEFONÍA FIJA E INTERNET DEDICADO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:00:00"
+        },
+        {
+            "CodigoExterno": "3729-6-LE26",
+            "Nombre": "SERVICIO DE DIFUSIÓN EN MEDIOS DE COMUNICACIÓN RADIAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T12:00:00"
+        },
+        {
+            "CodigoExterno": "438-11-LE26",
+            "Nombre": "CONSTRUCCIÓN DE ALCANTARILLADO DOMICILIARIO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T17:45:00"
+        },
+        {
+            "CodigoExterno": "1058085-29-LP26",
+            "Nombre": "Convenio Suministro de Medicamentos orales G-17 para el Hospital del Salvador ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "1230848-6-LP26",
+            "Nombre": "SERVICIO  DE MANT. Y LIMPIEZA ALCANTARILLADO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-04T15:00:00"
+        },
+        {
+            "CodigoExterno": "2322-9-LP26",
+            "Nombre": "Producción Técnica y Logística FESTIVAL VALLENAR CANTA 2026 ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-24T10:00:00"
+        },
+        {
+            "CodigoExterno": "229-17-LE26",
+            "Nombre": "MANTENCIÓN Y TALA DE ARBOLES EN SECTORES URBANOS NO CONCESIONADOS Y RURALES DE LA COMUNA DE COIHUECO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T16:00:00"
+        },
+        {
+            "CodigoExterno": "4497-1-LE26",
+            "Nombre": "2º LLAMADO CONST. ACCESIBILIDAD UNIVERSAL EDIFICIO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-12T11:00:00"
+        },
+        {
+            "CodigoExterno": "3691-7-LE26",
+            "Nombre": "Suministro de atenciones de Salud 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T14:00:00"
+        },
+        {
+            "CodigoExterno": "876-5-LE26",
+            "Nombre": "SERVICIOS DE PRODUCCIÓN EVENTOS Y CEREMONIAS 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "494-2-LP26",
+            "Nombre": "C.S en Reac. culti. acel. de orina en M. liquido",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T18:00:00"
+        },
+        {
+            "CodigoExterno": "2446-27-LE26",
+            "Nombre": "ADQ 61.000 FORMULARIOS DE PERMISOS DE CIRCULACION",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T09:00:00"
+        },
+        {
+            "CodigoExterno": "3761-7-LE26",
+            "Nombre": "Servicios Profesionales de Ingeniero Constructor para Elaboración y Diseño de Proyectos para la Municipalidad de Coelemu",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:00:00"
+        },
+        {
+            "CodigoExterno": "1398-12-LP26",
+            "Nombre": "Servicio de Traslado Componentes Sanguíneos.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-25T10:15:00"
+        },
+        {
+            "CodigoExterno": "2446-28-LE26",
+            "Nombre": "PROPUESTA PÚBLICA N° 61-2026 SEMILLAS CESPED",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T10:00:00"
+        },
+        {
+            "CodigoExterno": "1057774-1-L126",
+            "Nombre": "COMPRA DE LICENCIAS DE ANTIVIRUS.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-17T20:39:00"
+        },
+        {
+            "CodigoExterno": "1275930-1-LE26",
+            "Nombre": "Suministro de servicios de alimentación para actividades culturales de la Corporación Cultural Municipal de Ovalle.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:30:00"
+        },
+        {
+            "CodigoExterno": "527481-14-LE26",
+            "Nombre": "ARTISTAS CIERRE VERANO 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:00:00"
+        },
+        {
+            "CodigoExterno": "2318-8-LE26",
+            "Nombre": "SUMINISTRO Y APLICACIÓN DE BISCHOFITA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T13:00:00"
+        },
+        {
+            "CodigoExterno": "2793-36-LE26",
+            "Nombre": "ADQ DE FORMULARIOS DE LICENCIA DE CONDUCIR DIGITAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T16:03:00"
+        },
+        {
+            "CodigoExterno": "1436733-6-LE26",
+            "Nombre": "SERVICIO DE SUMINISTRO DE CATERING Y PRODUCCIÓN DE EVENTOS PARA EL SERVICIO LOCAL DE EDUCACIÓN PUBLICA LOS LIBERTADORES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:00:00"
+        },
+        {
+            "CodigoExterno": "2663-14-LE26",
+            "Nombre": "ARRIENDO GENERADOR PTO. EDEN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:00:00"
+        },
+        {
+            "CodigoExterno": "2111-27-LP26",
+            "Nombre": "MANT PREV CORR RX OSTEO ANGIO PHILIPS II",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T15:00:00"
+        },
+        {
+            "CodigoExterno": "2775-20-CO26",
+            "Nombre": "TERCER LLAMADO LICITACION PRIVADA  - POR SP 169439 – D.I.G. ILUSTRE MUNICIPALIDAD DE RENGO LLAMA A LICITACIÓN PÚBLICA PARA CONTRATACION DE SERVICIOS SUMINISTROS DE INTERNET PARA LA ILUSTRE MUNICIPALIDAD DE RENGO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T12:30:00"
+        },
+        {
+            "CodigoExterno": "1409550-1-LE26",
+            "Nombre": "SERVICIOS DE PRODUCCIÓN DEL LIBRO IMPERDIBLES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T18:00:00"
+        },
+        {
+            "CodigoExterno": "3267-5-LE26",
+            "Nombre": "Servicio de Traslado de Personas 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T10:01:00"
+        },
+        {
+            "CodigoExterno": "3135-16-LP26",
+            "Nombre": "MEJORAMIENTO EQUIPAMIENTO DEPORTIVO PLAZA REBOLLED",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:00:00"
+        },
+        {
+            "CodigoExterno": "2157-17-LP26",
+            "Nombre": "CONVENIO MEDICAMENTOS INYECTABLES III",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-24T15:30:00"
+        },
+        {
+            "CodigoExterno": "1096974-1-LP26",
+            "Nombre": "Servicio manejo residuos especiales y peligrosos",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-24T17:30:00"
+        },
+        {
+            "CodigoExterno": "948806-15-LE26",
+            "Nombre": "Adquisición de Insumos para Cirugía Vascular en Modalidad de Consignación",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:00:00"
+        },
+        {
+            "CodigoExterno": "3756-9-LE26",
+            "Nombre": "PROYECTO MEJORAMIENTO DE PROCESOS DE ATENCIÓN Y CALIDAD DE SERVICIO AL USUARIO DIRECCIÓN DE TRÁNSITO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:01:00"
+        },
+        {
+            "CodigoExterno": "938614-12-LE26",
+            "Nombre": "ASIS. SUMINISTRO DE ARTEFACTOS DE LINEA BLANCA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:00:00"
+        },
+        {
+            "CodigoExterno": "2111-38-LE26",
+            "Nombre": "SUM. FILTRO PARA ALIMENTACIÓN PARENTERAL DE 12 µM",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-17T15:00:00"
+        },
+        {
+            "CodigoExterno": "2202-12-LE26",
+            "Nombre": "SERVICIO DE CONSULTA OFTALMOLOGICA VICIO REFRACCIO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T18:06:00"
+        },
+        {
+            "CodigoExterno": "938614-13-LE26",
+            "Nombre": "SECC. ASISTENCIAL SERV. ADQUISICION ES UNIFORMES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T16:00:00"
+        },
+        {
+            "CodigoExterno": "1729-9-LE26",
+            "Nombre": "SERVICIO DE ARRIENDO CONTENEDORES PARA DOPER Y CEMENTERIO DE LOS LOROS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T12:00:00"
+        },
+        {
+            "CodigoExterno": "1057544-46-CO26",
+            "Nombre": "CONVENIO MANTENCIÓN APROVISIONAMIENTO DE INSUMOS Y PUESTA EN MARCHA PCA 310",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T17:30:00"
+        },
+        {
+            "CodigoExterno": "2793-20-LP26",
+            "Nombre": "RECUPERACIÓN Y AMPLIACIÓN SISTEMA INTEGRAL DE TELEVIGILANCIA PÚBLICA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-03T11:00:00"
+        },
+        {
+            "CodigoExterno": "1057384-19-L126",
+            "Nombre": "Curso Estimulación Temprana y Psicomotricidad",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T20:39:00"
+        },
+        {
+            "CodigoExterno": "45-4-LP26",
+            "Nombre": "SERVICIO DE SUMINISTRO DE CATERING PARA ACTIVIDADES DE DIVERSAS UNIDADES YO DEPARTAMENTOS DE NIVEL CENTRAL Y DE LAS DIRECCIONES REGIONALES DE SENCE 2026 ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "4157-9-L126",
+            "Nombre": "Contrato Suministro para Adquisición de leña para DAEM unidades educativa y sala cuna y jardines JUNJI",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T15:09:00"
+        },
+        {
+            "CodigoExterno": "2790-10-L126",
+            "Nombre": "MANTENCIÓN DE GRUPO ELECTRÓGENO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T17:00:00"
+        },
+        {
+            "CodigoExterno": "4314-10-L126",
+            "Nombre": "CONCESIÓN PARA EXPLOTACION DE ESTACIONAMIENTOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:00:00"
+        },
+        {
+            "CodigoExterno": "3909-2-LE26",
+            "Nombre": "SERVICIO DE TRANSPORTE ESCOLAR 2026 COMUNA DE RENAICO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-17T10:01:00"
+        },
+        {
+            "CodigoExterno": "1979-21-LE26",
+            "Nombre": "29.26 “SERVICIO DE BANQUETERIA PARA NODO COSTERO: HOSPITAL DE NUEVA IMPERIAL.”",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "1340-11-LE26",
+            "Nombre": "adquisición de cuchillas para motoniveladora para la Dirección de Vialidad Región de los Rios.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T16:00:00"
+        },
+        {
+            "CodigoExterno": "3130-7-CO26",
+            "Nombre": "SERVICIOS DE DIÁLISIS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T17:00:00"
+        },
+        {
+            "CodigoExterno": "1057501-78-LE26",
+            "Nombre": "CONVENIO SUMINISTRO CAJAS PLACA RADIO DISTAL FRACTURAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T12:15:00"
+        },
+        {
+            "CodigoExterno": "2153-8-LE26",
+            "Nombre": "PAPELERIA PARA EL CHSJM ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T18:04:00"
+        },
+        {
+            "CodigoExterno": "899-13-LE26",
+            "Nombre": "Adquisición Instalación y Soporte boton de pánico",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T17:01:00"
+        },
+        {
+            "CodigoExterno": "1057501-94-LR26",
+            "Nombre": "SERV.PROF. MÉDICOS ESPECIALISTAS EN RADIOCIRUGIAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-12T15:04:00"
+        },
+        {
+            "CodigoExterno": "1532-5-L126",
+            "Nombre": "SERVICIO RECARGA NITROGENO LIQUIDO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-17T15:00:00"
+        },
+        {
+            "CodigoExterno": "608897-6-LE26",
+            "Nombre": "SEGURO  VEHÍCULOS  DENOMINADA  DE  LA  SUBSECRETARÍA DEL MEDIO AMBIENTE A  NIVEL NACIONAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:30:00"
+        },
+        {
+            "CodigoExterno": "1075337-2-LE26",
+            "Nombre": "MANTENIMIENTO EQUIPOS INDUSTRIALES DE ALIMENTACIÓN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "2111-42-LP26",
+            "Nombre": "SUMINISTRO DE INSUMOS ACCESO VASCULAR",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T15:00:00"
+        },
+        {
+            "CodigoExterno": "874750-5-LE26",
+            "Nombre": "MTTO CORRECTIVO CÁMARAS DE SEGURIDAD",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T12:00:00"
+        },
+        {
+            "CodigoExterno": "2157-3-LP26",
+            "Nombre": "TORNILLOS CANULADOS SIN CABEZA EXTREMIDAD SUPERIOR",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-03T17:04:00"
+        },
+        {
+            "CodigoExterno": "1237404-9-LE26",
+            "Nombre": "Programación Artística Mariscadas y Curantos",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:00:00"
+        },
+        {
+            "CodigoExterno": "1523-18-LP26",
+            "Nombre": "BASES TECYADM PPTA 19-26 SUM IINSUMOS MAXILOFACIAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "2295-20-LP26",
+            "Nombre": "PLAN DE GESTIÓN DE OBRAS PGO 3 “MEJORAMIENTO ÁREAS VERDES BARRIO SARGENTO SEGUNDO DANIEL REBOLLEDO” COMUNA DE TALCA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-05T12:00:00"
+        },
+        {
+            "CodigoExterno": "3573-8-LP26",
+            "Nombre": "CONSTRUCCION SKATEPARK PANGUIPULLI",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T18:00:00"
+        },
+        {
+            "CodigoExterno": "1062018-6-L126",
+            "Nombre": "SERVICIO DE TRANSPORTE DE PASAJEROS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:01:00"
+        },
+        {
+            "CodigoExterno": "1057510-12-LE26",
+            "Nombre": "ADQUISICIÓN DE LÁMINAS DE PLOMO ADHESIVO PLOMADO Y CAJAS ELÉCTRICAS PLOMADAS PARA OBRAS DE BLINDAJE RADIOLÓGICO DEL PABELLÓN QUIRÚRGICO N°1 DEL HOSPITAL DE SAN CARLOS DR. BENICIO ARZOLA MEDINA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T17:00:00"
+        },
+        {
+            "CodigoExterno": "1480209-4-L126",
+            "Nombre": "PTR N°81 - SERVICIO DE TALLERES DE VALORIZACION Y APRECIO DE LOS ARTROPODOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:02:00"
+        },
+        {
+            "CodigoExterno": "1182102-3-LE26",
+            "Nombre": "SERVICIO DE ARRIENDO DE IMPRESORAS MILTIFUNCIONALES PARA LA BINTE AÑO 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T12:00:00"
+        },
+        {
+            "CodigoExterno": "4642-14-LP26",
+            "Nombre": "2500383 CONTRATACIÓN DEL SERVICIO DE SOPORTE Y MANTENCIÓN PARA EL SISTEMA HOSPITALIZADOS Y RESERVA DE HORAS DEL HOSPITAL DE CARABINEROS POR UN PERIODO DE 36 MESES.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "1057419-4-LE26",
+            "Nombre": "PRESTACIONES KINESICAS HOSPITAL SANTA BARBARA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T09:00:00"
+        },
+        {
+            "CodigoExterno": "2773-7-LE26",
+            "Nombre": "ADQUISICIÓN DE DOS UNIDADES DENTALES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T12:00:00"
+        },
+        {
+            "CodigoExterno": "2157-28-LE26",
+            "Nombre": "SUMINISTROS IMPLANTES ESCAPULAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T17:04:00"
+        },
+        {
+            "CodigoExterno": "763003-2-LE26",
+            "Nombre": "SERVICIO DE EXTRACCIÓN DE SÓLIDOS Y GRASAS.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T17:00:00"
+        },
+        {
+            "CodigoExterno": "3654-7-LE26",
+            "Nombre": "SEGUROS PARA INSTITUTO DE INVESTIGACIÓN Y CONTROL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T13:00:00"
+        },
+        {
+            "CodigoExterno": "1057509-13-L126",
+            "Nombre": "“ADQUISICIÓN DE SILLAS CON MESA INCORPORADA” kcp",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:00:00"
+        },
+        {
+            "CodigoExterno": "2665-23-CO26",
+            "Nombre": "Serv. y apoyo pedag. Idioma Inglés Esc. Arturo Pra",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-17T16:25:00"
+        },
+        {
+            "CodigoExterno": "1295444-3-LE26",
+            "Nombre": "SERVICIO DE MANEJO Y TRANSPORTE DE RESIDUOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T17:00:00"
+        },
+        {
+            "CodigoExterno": "584264-3-LP26",
+            "Nombre": "IMPRESIÓN FOTOCOPIADO Y ESCANEO DE DOCS.DAEM",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:05:00"
+        },
+        {
+            "CodigoExterno": "1658-27-LE26",
+            "Nombre": "P.25-2026 SERVICIO DE PREUNIVERSITARIO PARA ESTUDIANTES DE ESTABLECIMIENTOS EDUCACIONALES DE LA MUNICIPALIDAD DE TEMUCO.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T11:00:00"
+        },
+        {
+            "CodigoExterno": "2997-10-LP26",
+            "Nombre": "Mejoramiento  Escuela Fronteriza de Tulahuen",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-13T11:00:00"
+        },
+        {
+            "CodigoExterno": "2298-22-LE26",
+            "Nombre": "SERVICIO DE ARRIENDO DE BAÑOS QUIMICOS PORTALITES PARA ACTIVIDAES DE LAS DISTINTAS UNIDADES MUNICIPALES ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:00:00"
+        },
+        {
+            "CodigoExterno": "1660-18-L126",
+            "Nombre": "“COMPRA DE SERVICIO FONOADIOLOGO PARA DAR COBERTURA DE ATENCIONES USIARIOS TEA DURANTE AÑO 2026”",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-17T19:32:00"
+        },
+        {
+            "CodigoExterno": "4343-3-LE26",
+            "Nombre": "FRUTAS Y VERDURAS FRESCAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T09:00:00"
+        },
+        {
+            "CodigoExterno": "3761-4-LE26",
+            "Nombre": "Servicios Profesionales para Formulación de Proyectos para la Municipalidad de Coelemu",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:50:00"
+        },
+        {
+            "CodigoExterno": "2789-12-L126",
+            "Nombre": "“MEJORA DE SISTEMA ELÉCTRICO, ESCUELA JAVIER EYZAGUIRRE, COMUNA DE PAINE”",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:01:00"
+        },
+        {
+            "CodigoExterno": "2827-25-LE26",
+            "Nombre": "contrato suministro de trofeos y medallas para actividades deportivas y recreativas",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T16:00:00"
+        },
+        {
+            "CodigoExterno": "763003-1-LE26",
+            "Nombre": "PRODUCTOS QUÍMICOS PARA LA PLANTA DE TRATAMIENTOS.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:30:00"
+        },
+        {
+            "CodigoExterno": "1658-25-LE26",
+            "Nombre": "P.37-2026 SERVICIO DE PRODUCCIÓN PARA PROYECTO DESAFÍO URBANO PEDRO DE VALDIVIA – TEMUCO FONDO EXTRAPRESUPUESTARIO “CONCURSO DE VINCULACIÓN CON LA COMUNIDAD 8% DEL GOBIERNO REGIONAL DE LA ARAUCANIA”",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T09:00:00"
+        },
+        {
+            "CodigoExterno": "712307-5-LE26",
+            "Nombre": "Servicios apoyo FTO PH Arriendo Isla Cautín Temuco",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T18:00:00"
+        },
+        {
+            "CodigoExterno": "2432-4-CO26",
+            "Nombre": "SC.798 - Habitabilidad Convenio 2024 - Dideco",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:30:00"
+        },
+        {
+            "CodigoExterno": "1305504-2-LE26",
+            "Nombre": "SERVICIO PRODUCCION DE EVENTOS 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T17:00:00"
+        },
+        {
+            "CodigoExterno": "2048-19-LP26",
+            "Nombre": "Convenio de suministro de Cajas de Traumatología",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T17:00:00"
+        },
+        {
+            "CodigoExterno": "3842-3-LE26",
+            "Nombre": "SERV DE ARRIENDO DE CAMIONETA PARA  GRD PUNITAQUI",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T18:37:00"
+        },
+        {
+            "CodigoExterno": "1339159-4-LE26",
+            "Nombre": "SERVICIO DE EVALUACIÓN MÉDICA DE SALUD",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:01:00"
+        },
+        {
+            "CodigoExterno": "2785-7-LR26",
+            "Nombre": "Servicio de aseo de las dependencias municipales en San Pedro de la Paz",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-12T15:00:00"
+        },
+        {
+            "CodigoExterno": "750998-1-LP26",
+            "Nombre": "Insumos y Materiales de Toma de Muestras",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "1057501-76-LE26",
+            "Nombre": "CONVENIO SUMINISTRO CAJAS DE FIJACION EXTERNA CARBONO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T17:46:00"
+        },
+        {
+            "CodigoExterno": "2018-4-LE26",
+            "Nombre": "Servicio Adecuaciones en centro de control de emergencias y sala de reuniones del complejo D.A.S.A. San Pablo",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-04T15:01:00"
+        },
+        {
+            "CodigoExterno": "1057499-8-CO26",
+            "Nombre": "ADQ DE PROGESTERONA MICRONIZADA 100 MG PARA APS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T16:00:00"
+        },
+        {
+            "CodigoExterno": "1280-8-LP26",
+            "Nombre": "ARRIENDO CAMION DE LECHADA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T16:00:00"
+        },
+        {
+            "CodigoExterno": "1554-8-LR26",
+            "Nombre": "Servicio de Arriendo de equipos de oxigenoterapia domiciliaria.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T20:00:00"
+        },
+        {
+            "CodigoExterno": "2793-35-LE26",
+            "Nombre": "SERVICIO PARA OPERACION RENTA AT 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:17:00"
+        },
+        {
+            "CodigoExterno": "4076-12-LE26",
+            "Nombre": "SERV. EXCHANGE DE FUEL PUMP PARA HELICÓPTERO BK117",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T18:00:00"
+        },
+        {
+            "CodigoExterno": "627025-1-LE26",
+            "Nombre": "SERVICIO DE ASEO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:00:00"
+        },
+        {
+            "CodigoExterno": "4190-2-LE26",
+            "Nombre": "Contrato de Suministro Limpieza de Fosas",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T14:23:00"
+        },
+        {
+            "CodigoExterno": "1028-6-LE26",
+            "Nombre": "Asfalto Isla Rapa Nui",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T15:00:00"
+        },
+        {
+            "CodigoExterno": "3997-10-LE26",
+            "Nombre": "TRASLADO JARDINES FAMILIARES COLTAUCO 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "4497-2-LE26",
+            "Nombre": "ACTUALIZACIÓN PLADECO 2026-2033",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T17:00:00"
+        },
+        {
+            "CodigoExterno": "2885-7-LE26",
+            "Nombre": "ADQUISICION DE CANASTA DE ALIMENTOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:00:00"
+        },
+        {
+            "CodigoExterno": "1057501-75-LE26",
+            "Nombre": "CONVENIO SUMINISTRO INSUMOS EQUIPO DE MANO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T17:46:00"
+        },
+        {
+            "CodigoExterno": "2146-8-L126",
+            "Nombre": "Insumos kinesiológicos para abastecer sala de RHB Física del Hospital de Andacollo.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:04:00"
+        },
+        {
+            "CodigoExterno": "1077868-1-LP26",
+            "Nombre": "ADQUISICIÓN DE ARTÍCULOS DE ASEO PERSONAL PARA USUARIOS DE LA OFICINA DE FONDO DE PENSIONES ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:01:00"
+        },
+        {
+            "CodigoExterno": "3479-23-L126",
+            "Nombre": "SERVICIOS DE REPARACION Y CONFECCION DE MANGUERAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T12:00:00"
+        },
+        {
+            "CodigoExterno": "635-25-LE26",
+            "Nombre": "“CONVENIO DE LIMPIEZA DE VENTANAS E INSTALACIÓN DE SISTEMAS ANTIPALOMAS EN EDIFICIO N SERVICIO DE SALUD ARICA Y PARINACOTA AÑO 2026-2027 OT 1923”",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T15:30:00"
+        },
+        {
+            "CodigoExterno": "2560-1-LR26",
+            "Nombre": "CONSTRUCCIÓN PLAZA MIRADOR ATALAYA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-12T15:01:00"
+        },
+        {
+            "CodigoExterno": "2585-15-LE26",
+            "Nombre": "ADQ. ARTICULOS DE ESCRITORIO MEMO N°89-2025 PAC DAF IMA GMH",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:03:00"
+        },
+        {
+            "CodigoExterno": "3656-50-L126",
+            "Nombre": "SUMINISTRO DE LIMPIEZA DE FOSA SEPTICA PARA USUARIOS VULNERABLES DE LA COMUNA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-17T15:00:00"
+        },
+        {
+            "CodigoExterno": "3656-47-LP26",
+            "Nombre": "ADQUISICION DE 01 RETROEXCAVADORA PARA LA ILUSTRE MUNICIPALIDAD DE REQUÍNOA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "899-11-LE26",
+            "Nombre": "Servicio arriendo impresora para Comunicaciones",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T16:00:00"
+        },
+        {
+            "CodigoExterno": "1057501-74-LE26",
+            "Nombre": "CONVENIO INSUMOS PROTESIS DE RODILLA COMPLEJA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T13:18:00"
+        },
+        {
+            "CodigoExterno": "777304-5-LE26",
+            "Nombre": "SONDAS FOLEY Y OTROS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:00:00"
+        },
+        {
+            "CodigoExterno": "4627-1-LE26",
+            "Nombre": "CONVENIO DE SUMINISTRO DE ARRIENDO DE EMBARCACIÓN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:00:00"
+        },
+        {
+            "CodigoExterno": "2111-17-LR26",
+            "Nombre": "SUMINISTRO DE APÓSITOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-16T15:00:00"
+        },
+        {
+            "CodigoExterno": "855-5-LP26",
+            "Nombre": "CE-SUMINISTRO DE CONTROL DE PLAGAS JUNJI XII",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-24T16:30:00"
+        },
+        {
+            "CodigoExterno": "1002772-16-LE26",
+            "Nombre": "SUMINISTRO INSUMOS COMPATIBLES CON MONITOR DE PCO2",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:00:00"
+        },
+        {
+            "CodigoExterno": "2363-1-L126",
+            "Nombre": "Suministro de Servicio de Mantención- Diagnóstico",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T12:00:00"
+        },
+        {
+            "CodigoExterno": "1058045-2-LP26",
+            "Nombre": "CONVENIO DE SUMINISTRO CONTINUIDAD DE TRATAMIENTO PARA EL HOSPITAL PROVINCIAL DE OVALLE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:25:00"
+        },
+        {
+            "CodigoExterno": "948354-12-LE26",
+            "Nombre": "ADQ. MEDALLAS TESTIMONIALES GALVANOS Y BANDEJAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:00:00"
+        },
+        {
+            "CodigoExterno": "1895-6-LE26",
+            "Nombre": "Convenio Servicio de Arriendo y Mantención de Baños Químicos para cuadrillas de AD",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T15:10:00"
+        },
+        {
+            "CodigoExterno": "494-1-LR26",
+            "Nombre": "C.S en Reactivos para Microbiologia",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-12T09:00:00"
+        },
+        {
+            "CodigoExterno": "5349-7-LE26",
+            "Nombre": "SERVICIOS DE ARRIENDO DE EQUIPO LITOTRIPTOR PARA PACIENTES DEL HPH",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:01:00"
+        },
+        {
+            "CodigoExterno": "3668-2-CO26",
+            "Nombre": "PROYECTO: COOPERATIVISMO PARA EL BIENESTAR BARRIAL I. MUNICIPALIDAD DE CALERA DE TANGO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:30:00"
+        },
+        {
+            "CodigoExterno": "1499-27-LP26",
+            "Nombre": "INSUMOS PARA MICROBIOLOGÍA DE LA UNIDAD DE LABORATORIO CLÍNICO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T17:00:00"
+        },
+        {
+            "CodigoExterno": "1499-25-LP26",
+            "Nombre": "TUBO TIPO VACUTAINER DIFERENTES CARACTERÍSTICAS Y JERINGAS CON HEPARINA DE LITIO PARA LA TOMA DE MUESTRAS DE GASES PARA UNIDADES CLÍNICAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T17:00:00"
+        },
+        {
+            "CodigoExterno": "4476-4-L126",
+            "Nombre": "SERVICIOS DE MANTENCIÓN Y REPARACIÓN DE EQUIPOS DENTALES 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:00:00"
+        },
+        {
+            "CodigoExterno": "552578-6-L126",
+            "Nombre": "PROGRAMA VERANEA EN TU PLAZA” ARRIENDO DE JUEGOS INFLABLES TRADICIONALES Y ACUATICOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-17T16:30:00"
+        },
+        {
+            "CodigoExterno": "2408-254-LE25",
+            "Nombre": "CONSTRUCCIÓN REPOSICIÓN E INSTALACIÓN DE VALLAS PEATONALES EN LA COMUNA DE LOS ÁNGELES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-10T09:00:00"
+        },
+        {
+            "CodigoExterno": "1175-12-LE26",
+            "Nombre": "14.26SERV.TELECOMUNICACIONES EN Z.CENTRAL Y LACUST",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:30:00"
+        },
+        {
+            "CodigoExterno": "3526-11-LE26",
+            "Nombre": "SERV. TRANSPORTE DE PERSONAL SLTP",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:02:00"
+        },
+        {
+            "CodigoExterno": "1344190-1-LE26",
+            "Nombre": "G-2.1- C.SUMINISTRO AATT MICROFONOS INALAMBRICOS ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-24T15:29:00"
+        },
+        {
+            "CodigoExterno": "3730-7-L126",
+            "Nombre": "CONTRATACION DE VEHICULO CON CHOFER, PROGRAMA FAMILIAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-17T15:08:00"
+        },
+        {
+            "CodigoExterno": "1057499-7-LE26",
+            "Nombre": "SERVICIO DE MANTENCIÓN DEL ECÓGRAFO PERTENECIENTE AL CENTRO METROPOLITANO DE IMAGENOLOGÍA MAMARIA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T09:00:00"
+        },
+        {
+            "CodigoExterno": "2445-16-LE26",
+            "Nombre": "HABILITACION BODEGAS PARA POSTA EL PORVENIR",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T17:00:00"
+        },
+        {
+            "CodigoExterno": "4195-6-LE26",
+            "Nombre": "EQUIPOS Y EQUIPAMIENTO ESTADIO MUNICIPAL QUEMCHI",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "1057501-96-LE26",
+            "Nombre": "CONVENIO PLACAS FIJACION CARBONO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:18:00"
+        },
+        {
+            "CodigoExterno": "85-62-LR25",
+            "Nombre": "SUPERVISION PROGRAMA DE ALIMENTACION ESCOLAR 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-12T15:00:00"
+        },
+        {
+            "CodigoExterno": "1499-26-LP26",
+            "Nombre": "INSUMOS PARA CIRUGÍA CARDIACA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T17:00:00"
+        },
+        {
+            "CodigoExterno": "2292-8-L126",
+            "Nombre": "SERVICIO DE DOSIMETRIA PERSONAL TRIMESTRAL, PARA EL DEPARTAMENTO DE SALUD, TALCA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T15:00:00"
+        },
+        {
+            "CodigoExterno": "1499-24-LP26",
+            "Nombre": "VÁLVULAS MECÁNICAS PARA CIRUGÍA CARDIACA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T17:00:00"
+        },
+        {
+            "CodigoExterno": "812261-4-LP26",
+            "Nombre": "SERVICIO DE OPTIMIZACIÓN Y REFUERZO AMBULATORIO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "1305544-9-LP26",
+            "Nombre": "ADQUISICION DE INSUMOS PARA LICEOS TECNICOS PROFESIONALES DEPENDIENTES DEL SERVICIO LOCAL DE EDUCACIÓN PÚBLICA SANTA CORINA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T18:00:00"
+        },
+        {
+            "CodigoExterno": "552010-3-LE26",
+            "Nombre": "ARRIENDO CAMIONETA PARA COMPLEJOS FRONTERIZOS.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T16:00:00"
+        },
+        {
+            "CodigoExterno": "993-5-LP26",
+            "Nombre": "310 Ton emulsión Ruta B-247- EL LOA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-06T15:00:00"
+        },
+        {
+            "CodigoExterno": "2318-7-LE26",
+            "Nombre": "CAJAS DE ALIMENTOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:20:00"
+        },
+        {
+            "CodigoExterno": "1057501-87-LE26",
+            "Nombre": "CONVENIO SUMINISTRO DISTRACTOR Y ACTIVADOR",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:21:00"
+        },
+        {
+            "CodigoExterno": "3191-3-LE26",
+            "Nombre": "LE INS2 ADQUISICIÓN DE INSUMOS CLÍNICOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "4888-3-LE26",
+            "Nombre": "Serv.Profesionales-PNDAE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T17:00:00"
+        },
+        {
+            "CodigoExterno": "3191-2-LE26",
+            "Nombre": "LE INS2 ADQUISICIÓN DE INSUMOS CLÍNICOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "4511-13-LP26",
+            "Nombre": "CONST. Y REPOS. VEREDAS RUTA L-600 PIGUCHÉN MANTUL Y BUREO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T15:01:00"
+        },
+        {
+            "CodigoExterno": "1057501-99-LE26",
+            "Nombre": "CONVENIO CAJAS o SISTEMAS TRAUMATOLOGICOS CAJAS DE CLAVICULA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:37:00"
+        },
+        {
+            "CodigoExterno": "1076403-1-LE26",
+            "Nombre": "Certificados Digitales SSL-DINFO-PC 5950-brz",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "1627-18-LP26",
+            "Nombre": "PRESTACIÓN DE SERVICIOS EXTERNOS DE INFORMES DE TELE-RADIOLOGÍA PARA TOMOGRAFÍA AXIAL COMPUTARIZADA TAC PARA EL SERVICIO DE IMAGENOLOGIA DEL HOSPITAL DE SAN FERNANDO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T17:33:00"
+        },
+        {
+            "CodigoExterno": "705290-8-LP26",
+            "Nombre": "ELABORACIÓN DE PRÓTESIS FIJAS Y REMOVIBLES ODONTO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T16:00:00"
+        },
+        {
+            "CodigoExterno": "3191-6-LE26",
+            "Nombre": "LE FAR1 ADQUISICION DE FARMACOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:40:00"
+        },
+        {
+            "CodigoExterno": "1057501-98-LE26",
+            "Nombre": "CONVENIO CAJAS O SISTEMAS CLAVO FEMORAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T17:42:00"
+        },
+        {
+            "CodigoExterno": "548850-1-LE26",
+            "Nombre": "Servicio Mantención aire acondicionado IPS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T15:00:00"
+        },
+        {
+            "CodigoExterno": "740-4-LE26",
+            "Nombre": "CONTRATACIÓN DE LOS SERVICIOS DE FERIA EXPO ARROZ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:30:00"
+        },
+        {
+            "CodigoExterno": "514862-18-LE26",
+            "Nombre": "10032498  ADQUISICION DE ROLLOS DE PAPEL TERMINCO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:01:00"
+        },
+        {
+            "CodigoExterno": "1057414-2-LE26",
+            "Nombre": "CONVENIO DE SUMINISTRO DE OXIGENOTERAPIA X24 MESES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "2982-9-LE26",
+            "Nombre": "VESTUARIO REGIMEN INTERNO Y DEPORTIVO AGENTES POLICIALES ESTUDIANTES 2025 CECAPRO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T15:00:00"
+        },
+        {
+            "CodigoExterno": "699866-23-LP26",
+            "Nombre": "CONVENIO DE MARCAPASO BICAMERAL CON SENSOR DE ADAPTACIÓN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:31:00"
+        },
+        {
+            "CodigoExterno": "1224974-3-LE26",
+            "Nombre": "SISTEMA ERP INTEGRADO PARA LA CORPORAIÓ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:30:00"
+        },
+        {
+            "CodigoExterno": "2111-22-LE26",
+            "Nombre": "SUMINISTRO INSUMOS PARA TALLER DE CONFECCIÓN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T15:00:00"
+        },
+        {
+            "CodigoExterno": "1287766-1-LE26",
+            "Nombre": "SERVICIO DE CAMBIO DE SUPERFICIE DEPORTIVA CANCHA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T15:00:00"
+        },
+        {
+            "CodigoExterno": "605-3-LE26",
+            "Nombre": "RENOVACIÓN DE SOPORTE INFORMATICO DE EQUIPOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T15:00:00"
+        },
+        {
+            "CodigoExterno": "1057499-6-LP26",
+            "Nombre": "CONVENIO EXÁMENES DE ALTA COMPLEJIDAD PRAIS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T09:00:00"
+        },
+        {
+            "CodigoExterno": "620279-1-LE26",
+            "Nombre": "ADQUISICIÓN DE PETRÓLEO PARA LA CALEFACCIÓN DE LA BASE NAVAL DE PUERTO MONTT",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "1057491-24-LP26",
+            "Nombre": "ADQUISICIÓN POR SISTEMA DE SUMINISTRO DE BAJADAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "3249-2-LE26",
+            "Nombre": "SUMINISTRO DE PETRÓLEO PARA CALDERA DEL COMPLEJO AERONAVAL CONCÓN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T15:00:00"
+        },
+        {
+            "CodigoExterno": "1058043-10-LR25",
+            "Nombre": "C. S. TRASTUZUMAB EMTANSINA FA 10",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T17:00:00"
+        },
+        {
+            "CodigoExterno": "2101-20-L126",
+            "Nombre": "INSUMOS DE GINECO OBSTETRICIA Y ESTERILIZACIÓN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:05:00"
+        },
+        {
+            "CodigoExterno": "1660-17-L126",
+            "Nombre": "COMPRA DE SERVICIO DE TENS APOYO APS, POR 1641 PRESTACIONES EJECUTADAS DURANTE AÑO 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T16:13:00"
+        },
+        {
+            "CodigoExterno": "2153-7-LE26",
+            "Nombre": "SUMINISTRO INSUMOS ROPERIA 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:23:00"
+        },
+        {
+            "CodigoExterno": "1057472-14-LE26",
+            "Nombre": "Suministro de Instrumental para la Unidad de Esterilización",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T17:00:00"
+        },
+        {
+            "CodigoExterno": "2446-26-LE26",
+            "Nombre": "P.P. 50-2026 ASPERSONES DE RIEGO PARA ESTADIO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T09:01:00"
+        },
+        {
+            "CodigoExterno": "2483-2-LR26",
+            "Nombre": "ADQUISICIÓN DE GIFT CARD DE SUPERMERCADO DESTINADA A PERSONAS YO FAMILIAS VULNERABLES DE LA COMUNA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T15:01:00"
+        },
+        {
+            "CodigoExterno": "899-12-LP26",
+            "Nombre": "Servicio de mantención preventiva y correctiva HSJ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:00:00"
+        },
+        {
+            "CodigoExterno": "1126922-4-LP26",
+            "Nombre": "CONTRATO SUMINISTRO SERVICIO DE AGUA Y OTROS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:01:00"
+        },
+        {
+            "CodigoExterno": "3711-3-LP26",
+            "Nombre": "CONSTRUCCIÓN NICHOS Y ACCESO N°2 CEMENTERIO MUNICIPAL VICTORIA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T15:10:00"
+        },
+        {
+            "CodigoExterno": "1641-637-LR25",
+            "Nombre": "FMM - MANTENIMIENTO PREVENTIVO Y CORRECTIVO PARA EQUIPOS DE CLIMATIZACIÓN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T16:00:00"
+        },
+        {
+            "CodigoExterno": "3902-3-LE26",
+            "Nombre": "SUM. MANT. Y REPAR. ALUMBRADO PÚBLICO BULNES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T17:30:00"
+        },
+        {
+            "CodigoExterno": "1057501-100-LE26",
+            "Nombre": "HABILITACION SALA DE ESPERA PACIENTES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:01:00"
+        },
+        {
+            "CodigoExterno": "2790-9-L126",
+            "Nombre": "SERVICIO DE DOSIMETRIA-SALAS RADIOLOGIA DENTAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T17:00:00"
+        },
+        {
+            "CodigoExterno": "4113-8-LP26",
+            "Nombre": "MEJORAMIENTO ENERGETICO INTEGRAL ESC.VOLCAN LLAIMA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-23T15:00:00"
+        },
+        {
+            "CodigoExterno": "2686-17-LE26",
+            "Nombre": "SERVICIO DE PRODUCCIÓN TOUR DE VERANO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:00:00"
+        },
+        {
+            "CodigoExterno": "1242140-1-LE26",
+            "Nombre": "CONVENIO SERVICIO DE TV POR CABLE E INTERNET",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:25:00"
+        },
+        {
+            "CodigoExterno": "1057461-4-LP26",
+            "Nombre": "CONVENIO DE SUMINISTRO DE DETERMINACIONES PARA EXÁMENES DE COAGULACIÓN CON EQUIPO AUTOMATIZADO EN COMODATO PARA LA UNIDAD DE LABORATORIO CLÍNICO HOSPITAL DE CAUQUENES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T15:30:00"
+        },
+        {
+            "CodigoExterno": "4511-12-LE26",
+            "Nombre": "VERANO FELIZ COPIHUE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T10:00:00"
+        },
+        {
+            "CodigoExterno": "2080-1-LE26",
+            "Nombre": "COMPRA DE SUTURAS BARBADAS Y OTROS PARA HDFRZ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T10:00:00"
+        },
+        {
+            "CodigoExterno": "2686-18-LE26",
+            "Nombre": "SERVICIO DE PRODUCCIÓN PELUPEKES 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:00:00"
+        },
+        {
+            "CodigoExterno": "2790-8-L126",
+            "Nombre": "MONITOR SIGNOS VITALES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T17:00:00"
+        },
+        {
+            "CodigoExterno": "730566-2-LE26",
+            "Nombre": "Almacenamiento de Cintas y Medios Magnéticos",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:30:00"
+        },
+        {
+            "CodigoExterno": "1627-17-LE26",
+            "Nombre": "INSUMOS CLINICOS 02 PLAN DE COMPRAS AÑO 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:30:00"
+        },
+        {
+            "CodigoExterno": "407-16-LP26",
+            "Nombre": "MANTENIMIENTO PREVENTIVO Y REPARATIVO FULL REPUESTOS PARA BOMBAS DE MEDIO CONTRASTE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "4556-6-L126",
+            "Nombre": "INDUMENTARIA Y MATERIALES  CARRERA ELECTRICIDAD ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:14:00"
+        },
+        {
+            "CodigoExterno": "1080936-7-LE26",
+            "Nombre": "ESCIPOL - ADQUISICIÓN DE PIOCHAS Y COLLERAS ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:00:00"
+        },
+        {
+            "CodigoExterno": "1658-24-LE26",
+            "Nombre": "P. 28-2026 SERVICIO PRODUCCIÓN DE EVENTOS ACTIVIDAD SURVIVAL RACE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T09:00:00"
+        },
+        {
+            "CodigoExterno": "3232-9-LR26",
+            "Nombre": "SERVICIO DE OPERADORES PARA CENTRAL DE CÁMARAS DE TELEVIGILANCIA Y CENTRAL DE COMUNICACIONES PARA OPERACIONES DE SEGURIDAD PÚBLICA 247.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T15:00:00"
+        },
+        {
+            "CodigoExterno": "3573-7-LP26",
+            "Nombre": "CONSTRUCCIÓN ESPACIO RECREATIVO PANGUIPULLI",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T14:00:00"
+        },
+        {
+            "CodigoExterno": "3671-3-LE26",
+            "Nombre": "SUMINISTRO SUPRESOR DE POLVO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "953-3-LP26",
+            "Nombre": "Servicio de aseo Complejo Fronterizo Agua Negra",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-24T15:00:00"
+        },
+        {
+            "CodigoExterno": "2345-6-LE26",
+            "Nombre": "Pruebas de Libre paso en ductos soterrados",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:01:00"
+        },
+        {
+            "CodigoExterno": "3712-10-LE26",
+            "Nombre": "TRASLADO PARA PROGRAMAS DE DIDECO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T09:00:00"
+        },
+        {
+            "CodigoExterno": "812261-1-LE26",
+            "Nombre": "SERVICIO MANTENCIONES AUTOCLAVE SEDILE HLF",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:00:00"
+        },
+        {
+            "CodigoExterno": "5215-3-L126",
+            "Nombre": "LINAGLIPTINA  - METFORMINA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:00:00"
+        },
+        {
+            "CodigoExterno": "1075963-476-LP25",
+            "Nombre": "ADQUISICIÓN DE INSUMOS PARA LA CUANTIFICACIÓN DE  SUBPOBLACIONES LINFOCITARIAS POR CITOMETRIA DE FLUJO CON EQUIPO EN COMODATO.-",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T19:50:00"
+        },
+        {
+            "CodigoExterno": "592-4-LE26",
+            "Nombre": "MANT. PREVENTIVA Y CORECTIVA RED HÚMEDA Y SECA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-13T20:00:00"
+        },
+        {
+            "CodigoExterno": "3902-4-LP26",
+            "Nombre": "SUMINISTRO FERRETERIA Y MAT DE CONSTRUCCIONBULNES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "3668-4-LE26",
+            "Nombre": "DOCUMENTAL HISTORIA DE BARRIO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:30:00"
+        },
+        {
+            "CodigoExterno": "2111-28-LE26",
+            "Nombre": "ARRIENDO DE EQUIPOS COMPUTACIONALES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-17T18:01:00"
+        },
+        {
+            "CodigoExterno": "1021609-1-LE26",
+            "Nombre": "ADQUISICION DE INSUMOSPARA SERV. DE ESTERILIZACION",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:00:00"
+        },
+        {
+            "CodigoExterno": "707416-3-LE26",
+            "Nombre": "ADQUISICION INSUMOS INFORMATICOS REGION ATACAMA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T15:00:00"
+        },
+        {
+            "CodigoExterno": "1002588-16-LE26",
+            "Nombre": "Servicio de alimentación coffee break",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "4968-4-LE26",
+            "Nombre": "SERVICIO DE CONTACTABILIDAD DE PACIENTES POR WHATSAPP",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:38:00"
+        },
+        {
+            "CodigoExterno": "836-3-LE26",
+            "Nombre": "ADQUISICION DE INSUMOS PARA IMPRESORAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T13:00:00"
+        },
+        {
+            "CodigoExterno": "1057996-1-L126",
+            "Nombre": "COMPRA DE MEDICAMENTOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-17T16:30:00"
+        },
+        {
+            "CodigoExterno": "2115-2-LR26",
+            "Nombre": "SERVICIO DE ASEO PARA EL CRS DE MAIPÚ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T18:47:00"
+        },
+        {
+            "CodigoExterno": "4076-16-LE26",
+            "Nombre": "ADQ. REPUESTOS FERRETERIA AVIONES BEECHCRAFT B200",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T11:57:00"
+        },
+        {
+            "CodigoExterno": "1108338-4-LE26",
+            "Nombre": "SERVICIO DE TRANSPORTE CON CONDUCTOR POR 24 MESES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T14:28:00"
+        },
+        {
+            "CodigoExterno": "4076-15-LE26",
+            "Nombre": "EXCHANGE DE FMC-3000 DE AVIÓN BEECHCRAFT B200",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T11:10:00"
+        },
+        {
+            "CodigoExterno": "654-2-LE26",
+            "Nombre": "SERVICIO DE VIGILANCIA DPTO PROVINCIAL BIOBÍO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T10:50:00"
+        },
+        {
+            "CodigoExterno": "2146-7-LE26",
+            "Nombre": "Compra de servicios profesionales APS Extensión Ho",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-17T10:06:00"
+        },
+        {
+            "CodigoExterno": "1671-4-LE26",
+            "Nombre": "Servicio de Guardias de Seguridad ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T09:00:00"
+        },
+        {
+            "CodigoExterno": "2467-11-LE26",
+            "Nombre": "ADQ. TINTAS Y TONER PARA LOS DIFERENTES DEPARTAMEN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:07:00"
+        },
+        {
+            "CodigoExterno": "4556-5-L126",
+            "Nombre": "SUMINISTRO AGUA PURIFICADA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:19:00"
+        },
+        {
+            "CodigoExterno": "3711-5-LP26",
+            "Nombre": "CONSTRUCCION CUBIERTA CANCHA DE BASQUETBOL PARQUE ESTADIO VICTORIA código N°1-B-2025-169",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T15:05:00"
+        },
+        {
+            "CodigoExterno": "1256-1-LE26",
+            "Nombre": "Serv. Aseo Tesoreria Regiona de Aysén E102RT9",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-24T14:00:00"
+        },
+        {
+            "CodigoExterno": "621-171-LR26",
+            "Nombre": "VORICONAZOL 200 MG CM REC. 1000022330",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T16:00:00"
+        },
+        {
+            "CodigoExterno": "727202-21-LE26",
+            "Nombre": "SERVICIO DE TELEASISTENCIA PARA ADULTOS MAYORES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T09:00:00"
+        },
+        {
+            "CodigoExterno": "2295-19-LP26",
+            "Nombre": "PLAN DE GESTIÓN DE OBRAS PGO 1 “CIRCUTO DE LOS JARDINES BARRIO SARGENTO SEGUNDO DANIEL REBOLLEDO” COMUNA DE TALCA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-04T12:00:00"
+        },
+        {
+            "CodigoExterno": "2410-166-LP25",
+            "Nombre": "ADQUISICION DE EQUIPOS DE ECOTOMOGRAFÍA CON INSTALACIÓN PUESTA EN MARCHA Y CAPACITACIÓN",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-03T09:00:00"
+        },
+        {
+            "CodigoExterno": "1058085-28-LR26",
+            "Nombre": "SUMINISTRO ANTITIMOCITOS PARA EL HDS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-12T15:30:00"
+        },
+        {
+            "CodigoExterno": "890543-3-LR26",
+            "Nombre": "REMOD. SALAS DE LECTURA Y OFICINAS ADMINISTRATIVAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-16T16:00:00"
+        },
+        {
+            "CodigoExterno": "1232366-3-L126",
+            "Nombre": "Suministro e Instalación para la renovación de la red de fibra óptica y la modernización del sistema de videovigilancia.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T17:00:00"
+        },
+        {
+            "CodigoExterno": "2273-4-LE26",
+            "Nombre": "EX. 271542025 EQUIPAMIENTO POR IMPLEMENTACIÓN DE RED INALÁMBRICA CORPORATIVA  DECRETO DE COMPRA 8 SGL.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T19:50:00"
+        },
+        {
+            "CodigoExterno": "1608-2-LE26",
+            "Nombre": "SERVICIO DE ASEO Y APOYO EN EL COMPLEJO FRONTERIZO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "621-170-LR26",
+            "Nombre": "AMOXICCLAVUL 40057MG5ML FRA 70A100 ML 1000022328",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T16:00:00"
+        },
+        {
+            "CodigoExterno": "2102-68-LE25",
+            "Nombre": "INS. REACTIVOS PARA LABORATORIO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T17:20:00"
+        },
+        {
+            "CodigoExterno": "1558-2-LE26",
+            "Nombre": "Mantención preventiva y correctiva para ambulancia",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T14:26:00"
+        },
+        {
+            "CodigoExterno": "1145-14-LE26",
+            "Nombre": "Adquisición de notebook tipo yoga 2 en 1 naa-23",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:30:00"
+        },
+        {
+            "CodigoExterno": "1153625-2-LE26",
+            "Nombre": "Compra de Licencias antivirus Sophos ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T12:00:00"
+        },
+        {
+            "CodigoExterno": "3711-4-LP26",
+            "Nombre": "MEJORAMIENTO CANCHAS DE TENIS VICTORIA” código N°1-C-2025-678.-",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T15:10:00"
+        },
+        {
+            "CodigoExterno": "3320-2-LE26",
+            "Nombre": "019 209530 SERVICIO DE MONITOREO DE MEDIOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:01:00"
+        },
+        {
+            "CodigoExterno": "2439-3-LP26",
+            "Nombre": "MEJ. PARQUE RECREATIVO VILLA CONAVICOOP II CURICÓ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-05T09:00:00"
+        },
+        {
+            "CodigoExterno": "1193180-1-LE26",
+            "Nombre": "SERVICIO DE ASEO Y LIMPIEZA EDIFICIOS DPR",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T16:00:00"
+        },
+        {
+            "CodigoExterno": "1057049-26-LP26",
+            "Nombre": "JCD ASAS UNIDAD UROLOGIA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:30:00"
+        },
+        {
+            "CodigoExterno": "3730-6-L126",
+            "Nombre": "ADQUISICION Y CONFECCION DE PENDON ARAÑA, 6 CUERPOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "1198-5-LE26",
+            "Nombre": "SUMINISTRO DE VESTUARIO DEPORTIVO PROGRAMA DPS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:01:00"
+        },
+        {
+            "CodigoExterno": "1660-16-L126",
+            "Nombre": "COMPRA DE SERVICIOS DE PODOLOGÍA PARA USUARIOS DIABETICOS BAJO CONTROL EN PROGRAMA DE SALUD CARDIOVASCULAS DEL HOSPITAL, DURANTE EL AÑO 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T15:07:00"
+        },
+        {
+            "CodigoExterno": "2123-4-LE26",
+            "Nombre": "E1O2RT9 Administración Beneficio Sala Cuna",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:30:00"
+        },
+        {
+            "CodigoExterno": "1660-15-L126",
+            "Nombre": "COMPRA DE SUMINISTRO DE OXIGENO DE TRANSPORTE (1m3-4m3-6m3)",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T15:00:00"
+        },
+        {
+            "CodigoExterno": "1075963-351-LP25",
+            "Nombre": "SERVICIO ARRIENDO SISTEMA INFORMÁTICO PARA MEDICINA TRANSFUCIONAL ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T17:30:00"
+        },
+        {
+            "CodigoExterno": "1028897-14-LE26",
+            "Nombre": "Suministro materiales de ferreteria para EE TP",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:01:00"
+        },
+        {
+            "CodigoExterno": "2284-7-L126",
+            "Nombre": "MEDICAMENTOS DESTINADOS AL AREA DE SALUD MUNICIPAL DE VALDIVIA. SOLICITUD 5608-2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:44:00"
+        },
+        {
+            "CodigoExterno": "1227338-1-LE26",
+            "Nombre": "CONTRATACIÓN DE SISTEMA ERP INTEGRAL ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T12:15:00"
+        },
+        {
+            "CodigoExterno": "3376-2-LE26",
+            "Nombre": "SERVICIO DE PUBLICIDAD 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T17:00:00"
+        },
+        {
+            "CodigoExterno": "1057550-3-LE26",
+            "Nombre": "Sistema de Amplificación de Señal de Telefonia",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T12:15:00"
+        },
+        {
+            "CodigoExterno": "3735-2-LP26",
+            "Nombre": "AMPLIACIÓN CENTRO COMUNITARIO SANTA ELENA LAJA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T15:00:00"
+        },
+        {
+            "CodigoExterno": "3794-50-LE26",
+            "Nombre": "FLETE DE MENAJE DE CASA SANTIAGO-ISLA DE PASCUA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "1057545-15-LE26",
+            "Nombre": "SUMINISTRO DE NEUMATICOS DSSLR",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T09:00:00"
+        },
+        {
+            "CodigoExterno": "3794-49-LE26",
+            "Nombre": "FLETE Y BODEGAJE NACIONAL DE MENAJE DE CASA Y EFECTOS PERSONALES SANTIAGO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "3794-48-LE26",
+            "Nombre": "CONTRATACIÓN DEL SERVICIO DE MUDANZA NACIONAL.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "2945-2-LR26",
+            "Nombre": "SERVICIO DE ALIMENTACIÓN CONTRATADA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T12:00:00"
+        },
+        {
+            "CodigoExterno": "2380-15-LE26",
+            "Nombre": "ADQUISICIÓN DE TONER ORIGINALES PARA 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:00:00"
+        },
+        {
+            "CodigoExterno": "2380-14-LE26",
+            "Nombre": "FORMULARIOS DE LICENCIAS DE CONDUCIR DIGITAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:00:00"
+        },
+        {
+            "CodigoExterno": "937232-10-LE26",
+            "Nombre": "SERVICIO DE ATENCIONES PSICOLÓGICAS POR 24 MESES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T17:00:00"
+        },
+        {
+            "CodigoExterno": "2585-11-LE26",
+            "Nombre": "ADQ. SERV. CAMBIO ALFOMBRADO-BUTACAS MEMO N°184 IMA CRC.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T12:01:00"
+        },
+        {
+            "CodigoExterno": "2360-2-LE26",
+            "Nombre": "INSUMOS CARRO PARO CONVENIO SAR SAN VICENTE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-17T10:30:00"
+        },
+        {
+            "CodigoExterno": "621-169-LR26",
+            "Nombre": "CLORHEXIDINA 012% COLUTO FRA 100-150ML 1000022250",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T16:00:00"
+        },
+        {
+            "CodigoExterno": "1436733-5-LE26",
+            "Nombre": "EVALUACIONES MÉDICAS PARA EL PROGRAMA DE INTEGRACIÓN ESCOLAR DE LOS ESTABLECIMIENTOS EDUCACIONALES DEL SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE LOS LIBERTADORES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:00:00"
+        },
+        {
+            "CodigoExterno": "1002588-15-LE26",
+            "Nombre": "Asesoría implementación evaluación formativa",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "3296-4-LP26",
+            "Nombre": "MEJORAMIENTO RECINTO IGLESIA HUYAR ALTO CURACO DE VÉLEZ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-09T19:55:00"
+        },
+        {
+            "CodigoExterno": "1057534-5-LP26",
+            "Nombre": "Alimentos Hospital Purranque por 24 meses",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "740-3-LE26",
+            "Nombre": "CONTRATACIÓN DE LOS SERVICIOS DE VIGILANCIA INDAP",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:30:00"
+        },
+        {
+            "CodigoExterno": "2660-13-LE26",
+            "Nombre": "Reparación de Tractor Municipal",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "1643-6-LP26",
+            "Nombre": "Medicamentos Orales y Otras Vías no parenterales",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T17:01:00"
+        },
+        {
+            "CodigoExterno": "1375757-7-LE26",
+            "Nombre": "SISTEMA AMPLIFICACIÓN DE SONIDO Y VIDEOCONFERENCIA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T17:00:00"
+        },
+        {
+            "CodigoExterno": "3997-9-LE26",
+            "Nombre": "SERV. GENERALES MANTENCION ESPACIOS PUBLICOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T15:00:00"
+        },
+        {
+            "CodigoExterno": "621-168-LR26",
+            "Nombre": "GASA ALG. 4 PL 5X100 CM HILO R.O SO 5 UN 1000022248",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T16:00:00"
+        },
+        {
+            "CodigoExterno": "527481-5-LR26",
+            "Nombre": "CONSTRUCCIÓN CENTRO COMUNITARIO DE SALUD FAMILIAR",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T12:00:00"
+        },
+        {
+            "CodigoExterno": "654-1-LE26",
+            "Nombre": "SERVICIO DE VIGILANCIA DPTO PROVINCIAL ARAUCO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T10:50:00"
+        },
+        {
+            "CodigoExterno": "856-5-LE26",
+            "Nombre": "GG.PP. CAPACITACIÓN PROCESOS PEDAGOGICOS JUNJI",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-24T17:00:00"
+        },
+        {
+            "CodigoExterno": "1080089-6-LE26",
+            "Nombre": "ADQUISICIÓN DE PLOTTER – DSSM",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:00:00"
+        },
+        {
+            "CodigoExterno": "1554-4-LR26",
+            "Nombre": "Servicio Imagenología TAC para pacientes de HRC",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T20:00:00"
+        },
+        {
+            "CodigoExterno": "1057492-28-LE26",
+            "Nombre": "SUMINISTRO DE DISPOSITIVO HEMOSTÁTICO DESECHABLE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:00:00"
+        },
+        {
+            "CodigoExterno": "1233613-7-LE26",
+            "Nombre": "TRASLADOS ESCUELA NICOLAS MLADINIC",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "3827-7-L126",
+            "Nombre": "Diplomado en Promoción de la Salud y Calidad de Vida S.C 4319",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-18T21:18:00"
+        },
+        {
+            "CodigoExterno": "1271359-6-LE26",
+            "Nombre": "ADQ. INSTRUMENTOS MUSICALES Y SISTEMA DE SONIDO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T15:00:00"
+        },
+        {
+            "CodigoExterno": "2080-3-LP26",
+            "Nombre": "SUM. CATETERES E INTRODUCTORES Y OTROS PARA HDFRZ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T10:00:00"
+        },
+        {
+            "CodigoExterno": "621-167-LR26",
+            "Nombre": "AP. TRANSP CADHES 5 A 6 X 7 A 8 CM 1000022240",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T16:00:00"
+        },
+        {
+            "CodigoExterno": "1743-27-LP26",
+            "Nombre": "MANTENCIONES REPUESTOS Y REPARACIONES VEHICULOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T16:30:00"
+        },
+        {
+            "CodigoExterno": "1743-26-CO26",
+            "Nombre": "CONTRATO SUMINISTRO FLORES FRESCAS 2026",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T16:00:00"
+        },
+        {
+            "CodigoExterno": "1743-25-CO26",
+            "Nombre": "SERVICIO DE ALIMENTACION",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:30:00"
+        },
+        {
+            "CodigoExterno": "2580-4-LE26",
+            "Nombre": "CONTRATACIÓN DEL SERVICIO DE LIMPIEZA Y LABORES COMPLEMENTARIAS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T15:30:00"
+        },
+        {
+            "CodigoExterno": "2410-196-LE25",
+            "Nombre": "Adquisición de insumos para equipos de climatización ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:00:00"
+        },
+        {
+            "CodigoExterno": "2580-6-LE26",
+            "Nombre": "Servicio de Monitoreo de Publicidad",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T15:00:00"
+        },
+        {
+            "CodigoExterno": "514862-17-LE26",
+            "Nombre": "10032524 SERVICIO DE ECOGRAFÍA OBSTETRICA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "621-172-LR26",
+            "Nombre": "TRIPTORELINA 1125MG LIOF PSUSP INY FAM 1000022360",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T16:00:00"
+        },
+        {
+            "CodigoExterno": "1291-1-LP26",
+            "Nombre": "ADQUISICIÓN DE SERVICIO DE TRANSPORTE DE PERSONAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "3596-6-LP26",
+            "Nombre": "SERVICIO VÍA SUMINISTRO MATERIALES DE FERRETERÍA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "2216-4-O126",
+            "Nombre": "AIF Acceso Vial AMB B2, B3 y B4",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-04-07T10:00:00"
+        },
+        {
+            "CodigoExterno": "1110404-24-L126",
+            "Nombre": "EQUIPAMIENTOS PARA SALA DE ENLACE DEL LICEO JOVINA NARANJO FERNANDEZ Y LICEO ANTONIO VARAS DE LA BARRA.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:00:00"
+        },
+        {
+            "CodigoExterno": "1660-14-LE26",
+            "Nombre": "COMPRA DE SERVICIOS DE MEDICO POR PRESTACIONES EJE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T13:23:00"
+        },
+        {
+            "CodigoExterno": "4114-3-LE26",
+            "Nombre": "Servicio Fotocopiado - Departamento Educación",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-17T10:00:00"
+        },
+        {
+            "CodigoExterno": "1145-15-LE26",
+            "Nombre": "Adquisición de lubricantes para sistemas radares",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:30:00"
+        },
+        {
+            "CodigoExterno": "3765-4-LE26",
+            "Nombre": "Servicio de cambio de pavimentos interiores de unidad dependiente del Hospital Dr. Leopoldo Ortega Rodriguez",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T17:05:00"
+        },
+        {
+            "CodigoExterno": "2360-3-LE26",
+            "Nombre": "SERVICIO DE ARRIENDO DE IMPRESORA MULTIFUNCIOINAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-17T10:00:00"
+        },
+        {
+            "CodigoExterno": "3712-8-LP26",
+            "Nombre": "CONVENIO TRASLADO PARA MUNICIPALIDAD DE LOS VILOS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T11:00:00"
+        },
+        {
+            "CodigoExterno": "3378-4-LR26",
+            "Nombre": "SUMINISTRO DE MATERIALES E INSUMOS DE IMPLANTES PARA CIRUGÍAS DE TOBILLO Y PIE DEL SERVICIO DE TRAUMATOLOGÍA DEL HMS ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T16:00:00"
+        },
+        {
+            "CodigoExterno": "2369-13-LP26",
+            "Nombre": "PP 03 Provisión instalac. y configurac. cámaras",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "2360-4-LE26",
+            "Nombre": "ADQUISICION DE FARMACOS GES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T15:00:00"
+        },
+        {
+            "CodigoExterno": "1110404-25-LP26",
+            "Nombre": "PROYECTO EDUCATIVO EN MATEMÁTICA Y LENGUAJE PARA COLEGIO CENTENARIO Y COLEGIO EDUARDO FREI MONTALVA PERTENECIENTES AL SLEP DE CHINCHORRO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:00:00"
+        },
+        {
+            "CodigoExterno": "3117-9-LE26",
+            "Nombre": "CONFECCIÓN DE TERRAZA TIPO DECK CON TECHO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T09:45:00"
+        },
+        {
+            "CodigoExterno": "1057492-27-LE26",
+            "Nombre": "SUM.GASA LARGA Y NEBULIZADOR VENTILACIÓN MECÁNICA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:00:00"
+        },
+        {
+            "CodigoExterno": "1514-8-L126",
+            "Nombre": "Convenio de suministro para procesamiento, diagnóstico e informe de biopsias renales para el Hospital de Castro",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T20:36:00"
+        },
+        {
+            "CodigoExterno": "1057544-44-LP26",
+            "Nombre": "CONTRATACIÓN DE SERVICIOS MÉDICOS PARA LA REALIZACIÓN DE CONSULTAS MÉDICAS DE ESPECIALIDAD DE CIRUGÍA DE CABEZA Y CUELLO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "1514-5-L126",
+            "Nombre": "Convenio para la compra de exámenes de Laboratorio Clínico del Hospital de Castro",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T19:24:00"
+        },
+        {
+            "CodigoExterno": "2101-19-L126",
+            "Nombre": "MEDICAMENTOS S.C",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:00:00"
+        },
+        {
+            "CodigoExterno": "2401-28-L126",
+            "Nombre": "Suministro de Electrodomésticos para el 2026 ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:00:00"
+        },
+        {
+            "CodigoExterno": "2446-25-LE26",
+            "Nombre": "P.P. 8-2026 MANTENCION DE ASCENSORES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T09:01:00"
+        },
+        {
+            "CodigoExterno": "1201-1-LE26",
+            "Nombre": "SER. DE MEDICO ESPECIALISTA EN MEDICINA DEL DEPORT",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:30:00"
+        },
+        {
+            "CodigoExterno": "905-3-LE26",
+            "Nombre": "Mantención y Reparación Flota Vehícular San Fdo.",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-23T15:30:00"
+        },
+        {
+            "CodigoExterno": "3748-2-LE26",
+            "Nombre": "ADQUISICIÓN EQUIPAMIENTO Y MOBILIARIO LA HIGUERA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T17:00:00"
+        },
+        {
+            "CodigoExterno": "1028-8-LP26",
+            "Nombre": "Conv.  MR EQUIPOS DE CARGUIO  Y COMPACTACIÓN AD",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:00:00"
+        },
+        {
+            "CodigoExterno": "929-8-LE26",
+            "Nombre": "Adquisición de 6 Pendones LED Outdoor Mas Flight Case P.DPS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T15:00:00"
+        },
+        {
+            "CodigoExterno": "3117-7-LE26",
+            "Nombre": "SERVICIO DE EXTRACCIÓN SISTEMAS DE SANEAMIENTO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T09:45:00"
+        },
+        {
+            "CodigoExterno": "5048-1-O126",
+            "Nombre": "AIF PUENTE JUAN PABLO II ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-13T09:30:00"
+        },
+        {
+            "CodigoExterno": "1725-32-LE26",
+            "Nombre": "SUMINISTRO PASAJES AÉREOS INTERNACIONALES GM - COM",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T12:00:00"
+        },
+        {
+            "CodigoExterno": "2780-13-L126",
+            "Nombre": "CAMBIO DE LLAVES DE PASO CESFAM",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:38:00"
+        },
+        {
+            "CodigoExterno": "4284-14-LP26",
+            "Nombre": "ADQUISICIÓN Y REPOSICIÓN MAQUINARIA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T17:00:00"
+        },
+        {
+            "CodigoExterno": "4776-12-LE26",
+            "Nombre": "CONTRATACIÓN DEL SERVICIO DE MANTENCIÓN PREVENTIVA Y CORRECTIVA DE LA RED DE VACÍO Y RED DE OXÍGENO PERTENECIENTE AL CENTRO DE SALUD Y REHABILITACIÓN CAPREDENA LIMACHE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-03T15:00:00"
+        },
+        {
+            "CodigoExterno": "1461054-6-B226",
+            "Nombre": "SUMINISTRO COLACIONES FRIAS Y SERVICIO COFFE BREAK PARA UNIDADES EDUCACIONALES ADMINISTRADAS POR SLEP ELQUI",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T16:00:00"
+        },
+        {
+            "CodigoExterno": "4090-2-LE26",
+            "Nombre": "COMBUSTIBLE PARA CALEFACCION CESFAM CARELMAPU",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T11:00:00"
+        },
+        {
+            "CodigoExterno": "1040758-5-LE26",
+            "Nombre": "ARRIENDO DE VEHÍCULOS PARA LA SEREMIDE SALUD ÑUBLE",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T16:35:00"
+        },
+        {
+            "CodigoExterno": "3784-13-L126",
+            "Nombre": "PROVISIÓN DE EQUIPAMIENTO Y REPARACIÓN DE CÁMARAS DE VIGILANCIA - MUNICIPALIDAD DE COELEMU",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:28:00"
+        },
+        {
+            "CodigoExterno": "1417913-10-LE26",
+            "Nombre": "ADQUISICIÓN DE COMPUTADORES ALL-IN-ONE AIO PARA UNIDADES DE FINANZAS Y REMUNERACIONES DE CORMUDESI",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:00:00"
+        },
+        {
+            "CodigoExterno": "1549-5-LP26",
+            "Nombre": "SERVICIO DE MONITOREO DEL NERVIO LARÍNGEO",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:01:00"
+        },
+        {
+            "CodigoExterno": "3086-5-LE26",
+            "Nombre": "ADQUISICIÓN DE REPUESTOS Y CONSUMOS AREA MARITIMA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T10:00:00"
+        },
+        {
+            "CodigoExterno": "2333-21-LE26",
+            "Nombre": "SERVICIO DE HOSTING",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-19T09:15:00"
+        },
+        {
+            "CodigoExterno": "1343644-3-LE26",
+            "Nombre": "PRODUCCIÓN INTEGRAL",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:15:00"
+        },
+        {
+            "CodigoExterno": "768-2-LR26",
+            "Nombre": "ADQUISICIÓN 10 MINIBUSES SLEP IQQ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T15:00:00"
+        },
+        {
+            "CodigoExterno": "2790-7-L126",
+            "Nombre": "SERVICIO DE ARRIENDO DE VEHICULO CON CONDUCTOR",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T17:00:00"
+        },
+        {
+            "CodigoExterno": "1057439-139-LR25",
+            "Nombre": "Suministro Gases Clínicos Intrahospitalarios",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-11T20:00:00"
+        },
+        {
+            "CodigoExterno": "3117-5-LE26",
+            "Nombre": "RECUPERACIÓN DE VV.FF. VILLA SANTA INÉS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-24T09:15:00"
+        },
+        {
+            "CodigoExterno": "1267885-5-LE26",
+            "Nombre": "LICITACION EXAMENES DE LABORATORIO CESFAMS",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T09:00:00"
+        },
+        {
+            "CodigoExterno": "4377-6-L126",
+            "Nombre": "AMPLIFICACIÓN E ILUMINACIÓN SEMANA CULTURAL 2026.-",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T15:50:00"
+        },
+        {
+            "CodigoExterno": "1461054-8-LE26",
+            "Nombre": "SUM. ALIMENTACION INTERNADO LICEO CARLOS MONDACA",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-16T16:00:00"
+        },
+        {
+            "CodigoExterno": "812799-2-LP26",
+            "Nombre": "ADQUISICIÓN CLÍNICA VETERINARIA MÓVIL COMUNA DE MEJILLONES",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-03T15:00:00"
+        },
+        {
+            "CodigoExterno": "1057501-70-LP26",
+            "Nombre": "CONVENIO RADIOLOGÍA INTERVENCIONAL INSUMOS VARIOS II",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:01:00"
+        },
+        {
+            "CodigoExterno": "1057501-762-LP25",
+            "Nombre": "CONVENIO INSUMOS VARIOS PABELLONES ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-03-02T15:01:00"
+        },
+        {
+            "CodigoExterno": "1057434-8-LE26",
+            "Nombre": "SERVICIOS PROFESIONALES DE MEDICO RADIOLOGO PARA LA EJECUCION DE ECOTOMOGRAFIAS ABDOMINALES PROGRAMA IMÁGENES DIAGNOSTICAS DEL CESFAM DR. VICTOR MANUEL FERNANDEZ",
+            "CodigoEstado": 5,
+            "FechaCierre": "2026-02-20T14:00:00"
+        }
+    ]
+}

@@ -136,7 +136,7 @@ class TenderIndexDoc(BaseModel):
     complaints_count: int = 0
     complaints_level: Optional[str] = None
     products_count: int = 0
-    products_keywords: List[str] = []
+
     url: str
 
 

@@ -78,3 +78,17 @@ class MercadoPublicoClient:
         except ValidationError as e:
             logger.error(f"Validation error for code {code}: {e}")
             raise
+
+    async def get_by_status(self, status: str) -> LicitacionListResponse:
+        """
+        Get licitaciones by status.
+        Possible statuses: activas, publicada, cerrada, desierta, adjudicada, revocada, suspendida, todos.
+        """
+        params = {"estado": status}
+        data = await self._get("licitaciones.json", params)
+        
+        try:
+            return LicitacionListResponse(**data)
+        except ValidationError as e:
+            logger.error(f"Validation error for status {status}: {e}")
+            raise

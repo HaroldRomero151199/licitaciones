@@ -64,6 +64,7 @@ python verify_models.py
 ## 🔗 Endpoints Principales
 
 - `GET /test/`: Consulta licitaciones por fecha directamente a la API real.
+- `GET /test/status/{estado}`: Consulta licitaciones por estado (activas, publicada, adjudicada, etc.).
 - `GET /test/detail`: Consulta el detalle de una licitación específica por código.
 - `GET /test/detail/dto`: Obtiene el detalle de una licitación transformado al DTO simplificado.
 - `POST /ingest/test`: Dispara un proceso de ingesta de prueba (actualmente mockeado con archivos locales).

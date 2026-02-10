@@ -5,6 +5,17 @@ from fastapi.responses import JSONResponse
 from app.dependencies import get_mercado_publico_client
 from app.infrastructure.mercadopublico.client import MercadoPublicoClient
 from app.domain.schemas import LicitacionListResponse, LicitacionDetailResponse, ErrorResponse
+from enum import Enum
+
+class LicitacionEstado(str, Enum):
+    activas = "activas"
+    publicada = "publicada"
+    cerrada = "cerrada"
+    desierta = "desierta"
+    adjudicada = "adjudicada"
+    revocada = "revocada"
+    suspendida = "suspendida"
+    todos = "todos"
 
 router = APIRouter(prefix="/test", tags=["Mercado Público Integración Real"])
 
@@ -32,7 +43,10 @@ async def _handle_mp_request(func: Callable, *args, **kwargs) -> Any:
 @router.get(
     "/", 
     response_model=LicitacionListResponse,
-    responses={500: {"model": ErrorResponse, "description": "API Error from Mercado Público"}}
+    responses={
+        500: {"model": ErrorResponse, "description": "API Error from Mercado Público"},
+        503: {"description": "Service Unavailable - Mercado Público API is overloaded (e.g., unconditional drop overload)"}
+    }
 )
 async def test_real(fecha: str, client: MercadoPublicoClient = Depends(get_mercado_publico_client)):
     # Consumir directamente la API real (Lista de licitaciones)
@@ -41,7 +55,10 @@ async def test_real(fecha: str, client: MercadoPublicoClient = Depends(get_merca
 @router.get(
     "/detail", 
     response_model=LicitacionDetailResponse,
-    responses={500: {"model": ErrorResponse, "description": "API Error from Mercado Público"}}
+    responses={
+        500: {"model": ErrorResponse, "description": "API Error from Mercado Público"},
+        503: {"description": "Service Unavailable - Mercado Público API is overloaded"}
+    }
 )
 async def test_real_detail(codigo: str, client: MercadoPublicoClient = Depends(get_mercado_publico_client)):
     # Consumir directamente la API real (Detalle de licitación)
@@ -50,7 +67,10 @@ async def test_real_detail(codigo: str, client: MercadoPublicoClient = Depends(g
 @router.get(
     "/detail/dto",
     response_model=dict,
-    responses={500: {"model": ErrorResponse, "description": "API Error from Mercado Público"}}
+    responses={
+        500: {"model": ErrorResponse, "description": "API Error from Mercado Público"},
+        503: {"description": "Service Unavailable - Mercado Público API is overloaded"}
+    }
 )
 async def test_real_detail_dto(codigo: str, client: MercadoPublicoClient = Depends(get_mercado_publico_client)):
     """
@@ -73,3 +93,19 @@ async def test_real_detail_dto(codigo: str, client: MercadoPublicoClient = Depen
         return {"error": "No se encontró la licitación"}
     
     return await _handle_mp_request(transform_to_dto, codigo, client=client)
+
+@router.get(
+    "/status/{estado}", 
+    response_model=LicitacionListResponse,
+    responses={
+        500: {"model": ErrorResponse, "description": "API Error from Mercado Público"},
+        503: {"description": "Service Unavailable - Mercado Público API is overloaded"}
+    }
+)
+async def test_real_status(estado: LicitacionEstado, client: MercadoPublicoClient = Depends(get_mercado_publico_client)):
+    """
+    Consulta licitaciones por estado directamente a la API real.
+    
+    Posibles estados: activas, publicada, cerrada, desierta, adjudicada, revocada, suspendida, todos.
+    """
+    return await _handle_mp_request(client.get_by_status, estado.value, client=client)

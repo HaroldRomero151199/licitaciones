@@ -1,0 +1,127 @@
+{
+    "Cantidad": 20,
+    "FechaCreacion": "2026-02-09T23:02:25.6586392Z",
+    "Version": "v1",
+    "Listado": [
+        {
+            "CodigoExterno": "4180-3-LE26",
+            "Nombre": "VESTUARIO ACCESORIOS Y EQUIPOS",
+            "CodigoEstado": 15,
+            "FechaCierre": "2026-01-30T15:00:00"
+        },
+        {
+            "CodigoExterno": "1979-207-LP25",
+            "Nombre": "204.25 “SERVICIO DE OPERACIÓN PARA SALA DE CONTROL CENTRALIZADO DIGITADORES DE APOYO Y OTROS PARA NODO COSTERO: HOSPITAL DE NUEVA IMPERIAL”.",
+            "CodigoEstado": 15,
+            "FechaCierre": "2025-12-09T15:01:00"
+        },
+        {
+            "CodigoExterno": "1202333-85-LR25",
+            "Nombre": "SERVICIO DE MANTENCIÓN DEL SISTEMA DE ALUMBRADO PÚBLICO COMUNA DE QUINTERO PERIODO 2025-2029",
+            "CodigoEstado": 15,
+            "FechaCierre": "2026-01-08T18:47:00"
+        },
+        {
+            "CodigoExterno": "1191688-112-LE25",
+            "Nombre": "Adq. materiales eléctricos para multicanchas",
+            "CodigoEstado": 15,
+            "FechaCierre": "2025-11-24T15:00:00"
+        },
+        {
+            "CodigoExterno": "3791-5-LE26",
+            "Nombre": "Contratación Sistema de amplificación e Iluminación en Semana Cisnense",
+            "CodigoEstado": 15,
+            "FechaCierre": "2026-02-04T15:30:00"
+        },
+        {
+            "CodigoExterno": "1057430-73-LE25",
+            "Nombre": "Convenio Suministro de Controles Tercera Opinión",
+            "CodigoEstado": 15,
+            "FechaCierre": "2025-12-11T15:00:00"
+        },
+        {
+            "CodigoExterno": "1084156-69-LR25",
+            "Nombre": "SERVICIO DE INTERNET Y TELEFONÍA",
+            "CodigoEstado": 15,
+            "FechaCierre": "2025-11-10T16:00:00"
+        },
+        {
+            "CodigoExterno": "1043046-13-LR25",
+            "Nombre": "CONSERVACIÓN SISTEMA DE CONTROL DE TRÁNSITO ÑUBLE",
+            "CodigoEstado": 15,
+            "FechaCierre": "2025-11-06T15:00:00"
+        },
+        {
+            "CodigoExterno": "3595-3-L126",
+            "Nombre": "Arquitecto de Apoyo Secplan 2026",
+            "CodigoEstado": 15,
+            "FechaCierre": "2026-01-28T15:00:00"
+        },
+        {
+            "CodigoExterno": "2924-1-LE26",
+            "Nombre": "SUMINISTRO E INSTALACIÓN DE PISCINAS PREFABRICADAS",
+            "CodigoEstado": 15,
+            "FechaCierre": "2026-01-26T16:00:00"
+        },
+        {
+            "CodigoExterno": "948356-159-LE25",
+            "Nombre": "Adquisición de Productos para Soporte Nutricional",
+            "CodigoEstado": 15,
+            "FechaCierre": "2025-12-29T16:00:00"
+        },
+        {
+            "CodigoExterno": "2758-26-LQ25",
+            "Nombre": "CONSERVACIÓN PUENTE MALVILLA COMUNA DE SAN ANTONIO",
+            "CodigoEstado": 15,
+            "FechaCierre": "2025-10-10T12:00:00"
+        },
+        {
+            "CodigoExterno": "3764-4-LE26",
+            "Nombre": "SUMINISTRO ARRIENDO DE MAQUINARIA PESADA AÑO 2026",
+            "CodigoEstado": 15,
+            "FechaCierre": "2026-02-02T15:01:00"
+        },
+        {
+            "CodigoExterno": "14-44-LE25",
+            "Nombre": "SERVICIO DE SANITIZACIÓN Y CONTROL DE PLAGAS RM",
+            "CodigoEstado": 15,
+            "FechaCierre": "2026-01-08T15:00:00"
+        },
+        {
+            "CodigoExterno": "1057539-194-LR25",
+            "Nombre": "CONVENIO DE SUMINISTRO DE INSUMOS PARA EL SOPORTE NUTRICIONAL DE ALIMENTACIÓN ENTERAL HOSPITAL DE PUERTO MONTT",
+            "CodigoEstado": 15,
+            "FechaCierre": "2025-10-10T15:00:00"
+        },
+        {
+            "CodigoExterno": "1057492-155-LR25",
+            "Nombre": "SERV DE APOYO CLÍNICO ESPECIALIZADO PARA PABELLON",
+            "CodigoEstado": 15,
+            "FechaCierre": "2025-12-09T15:01:00"
+        },
+        {
+            "CodigoExterno": "2333-64-LE25",
+            "Nombre": "SERVICIO DE HOSTING",
+            "CodigoEstado": 15,
+            "FechaCierre": "2026-01-09T15:34:00"
+        },
+        {
+            "CodigoExterno": "1375761-1-LE26",
+            "Nombre": "SERVICIO DE PLATAFORMA DE GESTION ESCOLAR -SLEP VD",
+            "CodigoEstado": 15,
+            "FechaCierre": "2026-02-02T15:05:00"
+        },
+        {
+            "CodigoExterno": "229-180-LE25",
+            "Nombre": "ADQUISICIÓN DE DIVERSOS MATERIALES DE FERRETERÍA PARA LA DOM",
+            "CodigoEstado": 15,
+            "FechaCierre": "2026-01-09T15:00:00"
+        },
+        {
+            "CodigoExterno": "4491-1-LE26",
+            "Nombre": "SERVICIO PROFESIONAL DE EVALUACIÓN MEDICA EST. PIE",
+            "CodigoEstado": 15,
+            "FechaCierre": "2026-02-03T10:01:00"
+        }
+    ]
+}
