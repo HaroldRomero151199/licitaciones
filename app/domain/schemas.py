@@ -1,18 +1,28 @@
 from datetime import datetime
-from enum import IntEnum
+from enum import Enum, IntEnum
 from typing import List, Optional
 from pydantic import BaseModel, Field
 
 
 # --- Modelos de la API de Mercado Público (Raw / Infrastructure) ---
 
+class LicitacionEstado(str, Enum):
+    activas = "activas"
+    publicada = "publicada"
+    cerrada = "cerrada"
+    desierta = "desierta"
+    adjudicada = "adjudicada"
+    revocada = "revocada"
+    suspendida = "suspendida"
+    todos = "todos"
+
 class CodigoEstado(IntEnum):
     PUBLICADA = 5
     CERRADA = 6
     DESIERTA = 7
     ADJUDICADA = 8
-    REVOCADA = 18
-    SUSPENDIDA = 19
+    REVOCADA = 15
+    SUSPENDIDA = 16
 
 
 class Comprador(BaseModel):
@@ -127,7 +137,7 @@ class TenderIndexDoc(BaseModel):
     region: str
     comuna: str
     type: str
-    status: str
+    status_code: int
     publish_date: datetime
     closing_date: Optional[datetime] = None
     currency: str = "CLP"
@@ -140,6 +150,14 @@ class TenderIndexDoc(BaseModel):
     url: str
 
 
+
 class ErrorResponse(BaseModel):
     error: str
     detail: MercadoPublicoError
+
+
+class SearchTendersRequest(BaseModel):
+    search_term: str = Field(..., min_length=1, description="Term to search in title/description")
+    status_codes: List[int] = Field(..., min_length=1, description="List of status codes to filter by")
+    page: int = Field(1, ge=1, description="Page number")
+    size: int = Field(20, ge=1, le=100, description="Page size")

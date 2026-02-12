@@ -79,6 +79,14 @@ class MercadoPublicoClient:
             logger.error(f"Validation error for code {code}: {e}")
             raise
 
+    async def get_raw_by_code(self, code: str) -> dict:
+        """
+        Get raw json licitacion details by code (no Pydantic validation).
+        Useful for debugging full API response structure.
+        """
+        params = {"codigo": code}
+        return await self._get("licitaciones.json", params)
+
     async def get_by_status(self, status: str) -> LicitacionListResponse:
         """
         Get licitaciones by status.

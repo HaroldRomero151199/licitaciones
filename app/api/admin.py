@@ -1,28 +1,30 @@
 from fastapi import APIRouter, Depends, HTTPException
 from typing import Dict, Any
 
-from app.application.active_ingestion_service import ActiveTendersIngestionService
+from app.application.active_ingestion_service import TenderIngestionService
 from app.dependencies import get_active_ingestion_service
+from app.domain.schemas import LicitacionEstado
 
 router = APIRouter(prefix="/admin", tags=["Admin"])
 
 @router.post(
-    "/ingestion/actives",
+    "/ingestion/delta",
     responses={
         500: {"description": "Internal Server Error or Ingestion Error"},
-        503: {"description": "Service Unavailable - Mercado Público API is overloaded"}
     }
 )
-async def ingest_actives(
-    service: ActiveTendersIngestionService = Depends(get_active_ingestion_service)
+async def ingest_delta(
+    status: LicitacionEstado = LicitacionEstado.activas,
+    service: TenderIngestionService = Depends(get_active_ingestion_service)
 ) -> Dict[str, Any]:
     """
-    Trigger ingestion of active tenders from Mercado Público to Solr.
+    Trigger incremental ingestion (delta sync) by status.
     
-    Returns:
-        Dict with execution summary (found, indexed, errors, time).
+    Args:
+        status: activas, publicada, cerrada, desierta, adjudicada, revocada, suspendida.
     """
-    result = await service.ingest_actives()
+    # service is injected as TenderIngestionService instance provided by get_active_ingestion_service
+    result = await service.ingest_by_status_delta(status.value)
     
     if result.get("status") == "error":
         raise HTTPException(status_code=500, detail=result)

@@ -1,4 +1,4 @@
-from typing import List, Protocol
+from typing import List, Protocol, Dict, Any
 from datetime import date
 from app.domain.schemas import Licitacion, LicitacionItem
 
@@ -17,5 +17,24 @@ class SolrTenderRepositoryPort(Protocol):
         
         Args:
             docs: Lista de diccionarios o modelos convertidos a dict (DTOs para Solr).
+        """
+        ...
+
+    def fetch_min_fields_by_ids(self, ids: List[str]) -> Dict[str, Dict[str, Any]]:
+        """
+        Fetches minimal fields (id, status_code, closing_date) for a list of IDs.
+        Uses POST to avoid URL length limits.
+        """
+        ...
+
+    def atomic_update_many(self, partials: List[Dict[str, Any]]) -> None:
+        """
+        Sends atomic updates to Solr.
+        """
+        ...
+
+    def get_by_id(self, tender_id: str) -> Dict[str, Any] | None:
+        """
+        Fetches a single document by its id.
         """
         ...

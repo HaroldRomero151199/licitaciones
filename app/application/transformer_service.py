@@ -13,8 +13,8 @@ class TenderTransformer:
             6: "closed",
             7: "deserted",
             8: "awarded",
-            18: "revoked",
-            19: "suspended",
+            15: "revoked",
+            16: "suspended",
         }.get(code, "unknown")
     
     @staticmethod
@@ -118,7 +118,7 @@ class TenderTransformer:
             region=lic.comprador.region_unidad,
             comuna=lic.comprador.comuna_unidad or "",
             type=lic.tipo,
-            status=cls._map_status(lic.codigo_estado),
+            status_code=lic.codigo_estado,
             publish_date=lic.fechas.fecha_publicacion,
             closing_date=lic.fechas.fecha_cierre,
             currency=lic.moneda or "CLP",
@@ -172,7 +172,7 @@ class TenderTransformer:
             region=cls._first_or_empty(doc.get("region")),
             comuna=cls._first_or_empty(doc.get("comuna")),
             type=cls._first_or_empty(doc.get("type")),
-            status=cls._first_or_empty(doc.get("status")),
+            status=cls._map_status(int(cls._first_number_or_default(doc.get("status_code"), 0))),
             publishDate=cls._first_or_none(doc.get("publish_date")),
             closingDate=cls._first_or_none(doc.get("closing_date")),
             currency=cls._first_or_empty(doc.get("currency")) or "CLP",

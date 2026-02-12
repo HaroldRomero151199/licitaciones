@@ -4,18 +4,8 @@ from fastapi import APIRouter, Depends
 from fastapi.responses import JSONResponse
 from app.dependencies import get_mercado_publico_client
 from app.infrastructure.mercadopublico.client import MercadoPublicoClient
-from app.domain.schemas import LicitacionListResponse, LicitacionDetailResponse, ErrorResponse
+from app.domain.schemas import LicitacionListResponse, LicitacionDetailResponse, ErrorResponse, LicitacionEstado
 from enum import Enum
-
-class LicitacionEstado(str, Enum):
-    activas = "activas"
-    publicada = "publicada"
-    cerrada = "cerrada"
-    desierta = "desierta"
-    adjudicada = "adjudicada"
-    revocada = "revocada"
-    suspendida = "suspendida"
-    todos = "todos"
 
 router = APIRouter(prefix="/test", tags=["Mercado Público Integración Real"])
 
@@ -54,15 +44,15 @@ async def test_real(fecha: str, client: MercadoPublicoClient = Depends(get_merca
 
 @router.get(
     "/detail", 
-    response_model=LicitacionDetailResponse,
+    response_model=dict,
     responses={
         500: {"model": ErrorResponse, "description": "API Error from Mercado Público"},
         503: {"description": "Service Unavailable - Mercado Público API is overloaded"}
     }
 )
 async def test_real_detail(codigo: str, client: MercadoPublicoClient = Depends(get_mercado_publico_client)):
-    # Consumir directamente la API real (Detalle de licitación)
-    return await _handle_mp_request(client.get_by_code, codigo, client=client)
+    # Consumir directamente la API real (Detalle de licitación) sin filtro Pydantic
+    return await _handle_mp_request(client.get_raw_by_code, codigo, client=client)
 
 @router.get(
     "/detail/dto",

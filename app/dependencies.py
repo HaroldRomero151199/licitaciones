@@ -1,5 +1,5 @@
 from app.application.ingestion_service import IngestionService
-from app.application.active_ingestion_service import ActiveTendersIngestionService
+from app.application.active_ingestion_service import TenderIngestionService
 from app.infrastructure.mercadopublico.client import MercadoPublicoClient
 from app.infrastructure.solr.repository import SolrTenderRepository
 from app.config import settings
@@ -29,7 +29,7 @@ def get_ingestion_service():
 def get_active_ingestion_service():
     real_client = get_mercado_publico_client()
     solr_repo = get_solr_repository()
-    return ActiveTendersIngestionService(
+    return TenderIngestionService(
         mp_client=real_client,
         solr_repo=solr_repo
     )
