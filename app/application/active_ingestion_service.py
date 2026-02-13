@@ -63,12 +63,6 @@ class TenderIngestionService:
                 
         return str(value)
 
-    async def ingest_actives(self) -> Dict[str, Any]:
-        """Deprecated wrapper for backward compatibility or simple full ingestion."""
-        # For now, we can redirect to delta 'activas' or keep old logic. 
-        # Requirement says "wrapper ingest_actives_delta".
-        return await self.ingest_actives_delta()
-
     async def ingest_actives_delta(self) -> Dict[str, Any]:
         """Wrapper to ingest active tenders using delta sync."""
         return await self.ingest_by_status_delta("activas")

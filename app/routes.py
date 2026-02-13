@@ -7,10 +7,10 @@ from starlette.concurrency import run_in_threadpool
 
 from app.application.transformer_service import TenderTransformer
 from app.infrastructure.solr.repository import SolrTenderRepository
-from app.dependencies import get_solr_repository
+from app.dependencies import get_solr_repository, require_admin_token
 from app.domain.schemas import TenderSummaryDTO
 
-router = APIRouter()
+router = APIRouter(dependencies=[Depends(require_admin_token)])
 
 @router.get("/")
 async def root():

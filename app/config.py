@@ -14,6 +14,9 @@ class Settings(BaseSettings):
     solr_username: str
     solr_password: str
     
+    # Admin Security
+    admin_token: str
+    
     # Deprecated/Legacy (keeping for compatibility if needed, or we can migrate)
     # solr_url: str  <-- I will remove this if I update all usages.
     # Let's see where solr_url is used. It's used in dependencies.py. 

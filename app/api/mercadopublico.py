@@ -2,12 +2,16 @@ from typing import Callable, Any
 import httpx
 from fastapi import APIRouter, Depends
 from fastapi.responses import JSONResponse
-from app.dependencies import get_mercado_publico_client
+from app.dependencies import get_mercado_publico_client, require_admin_token
 from app.infrastructure.mercadopublico.client import MercadoPublicoClient
 from app.domain.schemas import LicitacionListResponse, LicitacionDetailResponse, ErrorResponse, LicitacionEstado
 from enum import Enum
 
-router = APIRouter(prefix="/test", tags=["Mercado Público Integración Real"])
+router = APIRouter(
+    prefix="/test", 
+    tags=["Mercado Público Integración Real"],
+    dependencies=[Depends(require_admin_token)]
+)
 
 async def _handle_mp_request(func: Callable, *args, **kwargs) -> Any:
     """Helper to handle common Mercado Público API logic and errors."""
