@@ -11,6 +11,7 @@ app = FastAPI(title="Mercado Público Search API")
 origins = [
     "http://localhost:3000",  # Tu app de Angular
     "http://127.0.0.1:3000",
+    "https://ethos-licitaciones-frontend.wlzkwl.easypanel.host",
 ]
 
 # 2. Agrega el middleware
