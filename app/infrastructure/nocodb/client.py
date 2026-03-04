@@ -35,6 +35,13 @@ class NocoDBClient:
     async def get_users(self, limit: int = 100, offset: int = 0) -> Dict[str, Any]:
         params = {"limit": limit, "offset": offset}
         return await self._request("GET", settings.nocodb_table_id_users, params=params)
+
+    async def get_user_by_email(self, email: str) -> Dict[str, Any]:
+        params = {
+            "where": f"(email,eq,{email})",
+            "limit": 1
+        }
+        return await self._request("GET", settings.nocodb_table_id_users, params=params)
         
     async def get_tiers(self, limit: int = 100, offset: int = 0) -> Dict[str, Any]:
         params = {"limit": limit, "offset": offset}
@@ -42,7 +49,32 @@ class NocoDBClient:
         
     async def get_subscription(self, record_id: int) -> Dict[str, Any]:
         return await self._request("GET", settings.nocodb_table_id_subscriptions, f"/{record_id}")
+
+    async def get_subscriptions_by_user(self, user_id: int) -> Dict[str, Any]:
+        params = {
+            "where": f"(users_id,eq,{user_id})~and(status,eq,active)",
+            "limit": 10
+        }
+        return await self._request("GET", settings.nocodb_table_id_subscriptions, params=params)
         
     async def create_subscription(self, payload: dict) -> Dict[str, Any]:
         # NocoDB expects an array or single object for inserting into table
         return await self._request("POST", settings.nocodb_table_id_subscriptions, json=payload)
+
+    async def get_subscription_concepts(self, subscription_id: int, limit: int = 100, offset: int = 0) -> Dict[str, Any]:
+        params = {
+            "where": f"(subscriptions_id,eq,{subscription_id})",
+            "limit": limit,
+            "offset": offset
+        }
+        return await self._request("GET", settings.nocodb_table_id_subscription_concepts, params=params)
+
+    async def get_subscription_concept(self, record_id: int) -> Dict[str, Any]:
+        return await self._request("GET", settings.nocodb_table_id_subscription_concepts, f"/{record_id}")
+        
+    async def create_subscription_concept(self, payload: dict) -> Dict[str, Any]:
+        return await self._request("POST", settings.nocodb_table_id_subscription_concepts, json=payload)
+
+    async def delete_subscription_concept(self, record_id: int) -> Dict[str, Any]:
+        return await self._request("DELETE", settings.nocodb_table_id_subscription_concepts, json=[{"Id": record_id}])
+

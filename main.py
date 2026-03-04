@@ -26,6 +26,7 @@ app.add_middleware(
 from app.api.users import router as users_router
 from app.api.tiers import router as tiers_router
 from app.api.subscriptions import router as subscriptions_router
+from app.api.subscription_concepts import router as subscription_concepts_router
 
 # Include the routes
 app.include_router(api_router)
@@ -34,6 +35,7 @@ app.include_router(admin_router)
 app.include_router(users_router)
 app.include_router(tiers_router)
 app.include_router(subscriptions_router)
+app.include_router(subscription_concepts_router)
 
 if __name__ == "__main__":
     import uvicorn

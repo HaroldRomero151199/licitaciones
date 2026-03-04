@@ -40,3 +40,28 @@ class SubscriptionCreateRequest(BaseModel):
             "tiers_id": self.tier_id,
             "status": self.status,
         }
+
+class SubscriptionConceptDTO(BaseNocoSchema):
+    id: int = Field(alias='Id')
+    subscriptions_id: int = Field(default=0)
+    concept: str = Field(default="")
+    nc_order: Optional[str] = Field(default=None)
+
+class SubscriptionConceptCreateRequest(BaseModel):
+    subscriptions_id: int
+    title: Optional[str] = None
+    concept: str
+
+    def to_nocodb(self) -> dict:
+        """
+        Map from our request DTO to NocoDB's internal structure for insertion.
+        """
+        return {
+            "subscriptions_id": self.subscriptions_id,
+            "concept": self.concept,
+        }
+
+class UserDetailDTO(BaseModel):
+    user: UserDTO
+    active_subscription: Optional[SubscriptionDTO] = None
+    concepts: List[SubscriptionConceptDTO] = []

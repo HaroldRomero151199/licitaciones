@@ -10,6 +10,7 @@ from app.application.daily_ingestion_runner import DailyIngestionRunner
 from app.application.user_service import UserService
 from app.application.tier_service import TierService
 from app.application.subscription_service import SubscriptionService
+from app.application.subscription_concept_service import SubscriptionConceptService
 from app.infrastructure.mercadopublico.client import MercadoPublicoClient
 from app.infrastructure.solr.repository import SolrTenderRepository
 from app.infrastructure.nocodb.client import NocoDBClient
@@ -80,3 +81,6 @@ def get_tier_service(client: NocoDBClient = Depends(get_nocodb_client)) -> TierS
 
 def get_subscription_service(client: NocoDBClient = Depends(get_nocodb_client)) -> SubscriptionService:
     return SubscriptionService(client)
+
+def get_subscription_concept_service(client: NocoDBClient = Depends(get_nocodb_client)) -> SubscriptionConceptService:
+    return SubscriptionConceptService(client)

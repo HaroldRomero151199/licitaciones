@@ -23,6 +23,7 @@ class Settings(BaseSettings):
     nocodb_table_id_users: str
     nocodb_table_id_tiers: str
     nocodb_table_id_subscriptions: str
+    nocodb_table_id_subscription_concepts: str
     
     # Deprecated/Legacy (keeping for compatibility if needed, or we can migrate)
     # solr_url: str  <-- I will remove this if I update all usages.
