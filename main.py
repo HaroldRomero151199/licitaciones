@@ -23,10 +23,17 @@ app.add_middleware(
     allow_headers=["*"],              # Permite todos los headers
 )
 
+from app.api.users import router as users_router
+from app.api.tiers import router as tiers_router
+from app.api.subscriptions import router as subscriptions_router
+
 # Include the routes
 app.include_router(api_router)
 app.include_router(mp_real_router)
 app.include_router(admin_router)
+app.include_router(users_router)
+app.include_router(tiers_router)
+app.include_router(subscriptions_router)
 
 if __name__ == "__main__":
     import uvicorn

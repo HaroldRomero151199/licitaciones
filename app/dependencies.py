@@ -7,8 +7,12 @@ from fastapi import Header, HTTPException, Depends
 from app.application.ingestion_service import IngestionService
 from app.application.active_ingestion_service import TenderIngestionService
 from app.application.daily_ingestion_runner import DailyIngestionRunner
+from app.application.user_service import UserService
+from app.application.tier_service import TierService
+from app.application.subscription_service import SubscriptionService
 from app.infrastructure.mercadopublico.client import MercadoPublicoClient
 from app.infrastructure.solr.repository import SolrTenderRepository
+from app.infrastructure.nocodb.client import NocoDBClient
 from app.config import settings
 
 def get_mercado_publico_client():
@@ -64,3 +68,15 @@ async def require_admin_token(x_admin_token: Optional[str] = Header(None, alias=
         raise HTTPException(status_code=401, detail="Invalid admin token")
     
     return x_admin_token
+
+def get_nocodb_client() -> NocoDBClient:
+    return NocoDBClient()
+
+def get_user_service(client: NocoDBClient = Depends(get_nocodb_client)) -> UserService:
+    return UserService(client)
+
+def get_tier_service(client: NocoDBClient = Depends(get_nocodb_client)) -> TierService:
+    return TierService(client)
+
+def get_subscription_service(client: NocoDBClient = Depends(get_nocodb_client)) -> SubscriptionService:
+    return SubscriptionService(client)

@@ -16,6 +16,13 @@ class Settings(BaseSettings):
     
     # Admin Security
     admin_token: str
+
+    # NocoDB Configuration
+    nocodb_base_url: str
+    nocodb_token: str
+    nocodb_table_id_users: str
+    nocodb_table_id_tiers: str
+    nocodb_table_id_subscriptions: str
     
     # Deprecated/Legacy (keeping for compatibility if needed, or we can migrate)
     # solr_url: str  <-- I will remove this if I update all usages.
