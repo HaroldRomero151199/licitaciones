@@ -40,6 +40,9 @@ class NocoDBClient:
         params = {"limit": limit, "offset": offset}
         return await self._request("GET", settings.nocodb_table_id_tiers, params=params)
         
+    async def get_subscription(self, record_id: int) -> Dict[str, Any]:
+        return await self._request("GET", settings.nocodb_table_id_subscriptions, f"/{record_id}")
+        
     async def create_subscription(self, payload: dict) -> Dict[str, Any]:
         # NocoDB expects an array or single object for inserting into table
         return await self._request("POST", settings.nocodb_table_id_subscriptions, json=payload)
