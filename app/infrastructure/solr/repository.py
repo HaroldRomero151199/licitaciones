@@ -75,6 +75,8 @@ class SolrTenderRepository:
                 # Include _text_ too, since your schema copyFields go there
                 "qf": "title^2.0 description^1.0 _text_^1.0",
                 "pf": "title^5.0",
+                # ✅ Precision: make more words = more specific
+                "q.op": "AND",   # force AND between terms
             }
             
             # Handle status_codes filtering (fq)
